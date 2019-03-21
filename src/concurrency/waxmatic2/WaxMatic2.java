@@ -1,6 +1,5 @@
 package concurrency.waxmatic2;
 
-import sun.awt.windows.ThemeReader;
 
 import java.util.concurrent.*;
 import java.util.concurrent.locks.Condition;

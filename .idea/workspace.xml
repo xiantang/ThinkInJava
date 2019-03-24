@@ -1,8 +1,628 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="814a65f6-ac40-4028-b713-2f15452d6d49" name="Default Changelist" comment="" />
+    <list default="true" id="814a65f6-ac40-4028-b713-2f15452d6d49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadSafety/CountingFactorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadSafety/LazyInitRace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadSafety/StatelessFactorizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/BoardGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Chess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Burrito.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/EnumClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Enums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Explore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/OzWith.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/RandomTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Reflection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Shrubbery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Sigin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/SpaceShip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Spiciness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/TrafficLight$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/TrafficLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/FatherClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/PrimitiveOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/SonClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/SprinklerSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/ToolTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/WaterSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/AtUnitExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/DBTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/ExtractInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/Multiplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/PasswordUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/Testable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/UseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/UseCaseTracker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/Constraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/SQLInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/SQLString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/SQLType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/TableColum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/TableCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/Uniqueness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Beetle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/BlankFinal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/CADSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/FinalArguments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/FinalData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/FinalOverridingIllusion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Gizmo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Insert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/OverridingPrivate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/OverridingPrivate2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Poppet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/WithFinals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Amphibian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Bart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Characteristic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Derived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Description.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Frog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Glypy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/HappyActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Hide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Homer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Instrument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/LivingCreature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Milhouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Music.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Orc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Percussion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/PolyConstructors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/PrivateOverride.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/RandomShapeGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/RoundGlyph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/SadActor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Stage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Transmogrify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Villain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Wind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Callbacks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Callee2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Callee2$Closure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Callee2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Calleel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Caller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Contents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Destination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Incrementable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/MyIncrement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/AssociativeArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Candy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Cookie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/FancyToy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/GFG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Geek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Gerbil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Gum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Hamster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/HasBatterises.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/PetCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Pug.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Rodent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Shapes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Shoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/SweetShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Toy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/ToyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Waterproof.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/ArraySearching.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2$RandBooleanGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2$RandCharGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2$RandIntGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2$RandStringGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/BooleanGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/CharGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collection1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collections2$RandStringPairGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collections2$StringGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collections2$StringPairGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collections2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/ComType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/ComType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/CompTypeComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/ComparingArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/CountryCapitals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/FillTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Groundhog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Hamster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/InfiniteRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/IntGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/MapGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/MouseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/MouseTrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Prediction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/PrintingContainers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Set1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Set2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/SimpleCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/SortedSetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/SpringDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/StackL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/WorksAnyway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/CanonicalMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/CountedString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/FailFast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/Individual.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/MapEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/MyMain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/MyMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/ReadOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/References.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/SimpleHashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/Value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/VeryBig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/xiantang/mypackage/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/xiantang/mypackage/AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/xiantang/mypackage/DD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/xiantang/mypackage/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ADeamon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Accessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Atomicity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AttemptLocking$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AttemptLocking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AyomicIntegerTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AyomicIntegerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/BetterWait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Blocked2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Blocked3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/BlockedMutex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Blocker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/BusBoy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Busy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Busy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CacheThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CallableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CaptureUncaugthException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Chef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CircularSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CriticalSection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Daemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DaemonFromFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DaemonThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DaemonThreadPooExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DeamonSpaw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DualSynch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Entrance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/EvenChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/EvenGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ExceptionThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ExceptionThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ExpicitPairManager1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ExpicitPairManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/FC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/FibonaciiC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/HandlerThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/IOBlocked.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerRunnable1$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerRunnable1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerThread1$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerThread2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/IntGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Interrupting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InterruptingIdiom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Joinning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/LIftOff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/LiftOn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Meal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MultiLock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MultiLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MyField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MyThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MyUncaughtExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/NeedCleanUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/OrnametalGarden.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Pair$PairValuesNotEqualException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairManager1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairManipulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Restaurant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/RunDD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/RunGG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SerialNumberChecker$SerialChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SerialNumberChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SerialNumberGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SimpleDaemons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SimplePriorities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SimpleThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SingleThreadExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SleepBlocked.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SleepTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Sleeper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Sleeper1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SyncCodeBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SyncObject$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SyncObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SynchronizedBlocked$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SynchronizedBlocked.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SynchronizedEvenGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Task2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Task2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/TaskWithResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Tasssk$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Tasssk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadLocalVariableHolder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadLocalVariableHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadMethod$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadMethod$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadVariations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/WaitPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/WaxOMatic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/WaxOff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/WaxOn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/DDD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/MyAppThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/MyThreadFactory$1Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/MyThreadFactory$A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/MyThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/ThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/lengthOfLongestSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/BoundedExecutor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/BoundedExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/WaxMatic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/WaxOff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/WaxOn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Americano.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/BasicGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Breve.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Cappuccino.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Coffee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/CoffeeGenerator$CoffeeIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/CoffeeGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/CountedObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Derived1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/ErasedTypeEquivalence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/ExplicitTypeSecification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Generators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/GenericBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/GenericMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/GenericVarargs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/HasF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Holder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Leet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/LinkedStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/LinkedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Manipulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Mocha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/New.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/RandomList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/ThreeTuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/TwoTuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/hape/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/hape/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/hape/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/hape/Traiangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Aline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/BasicFileOutPut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Blip1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Blip2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/BufferedInputFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/DirFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/DirList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/DirList2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/DirList2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Directory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Directory$TreeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Directory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/FileOutputShortcut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/FormattedMemoryInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/FreezeAliem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/MemoryInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/StoringAndRecoveringData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/ThawAllen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Worm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/X.file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoardGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/Burrito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/EnumClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/Enums.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/OzWith.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/RandomTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/Reflection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/SpaceShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumClass/TrafficLight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FatherClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimitiveOverloading.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SonClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SprinklerSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToolTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WaterSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/AtUnitExample1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/DBTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/ExtractInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/Multiplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/PasswordUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/Testable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/UseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/UseCaseTracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/databases/Constraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/databases/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/databases/SQLInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/databases/SQLString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/databases/SQLType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/databases/TableColum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/databases/TableCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/annotations/databases/Uniqueness.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/Beetle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/BlankFinal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/CADSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/FinalArguments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/FinalData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/FinalOverridingIllusion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/Gizmo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/OverridingPrivate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/OverridingPrivate2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/Poppet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c06/WithFinals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Bart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Frog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Hide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Homer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Instrument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Milhouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Music.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Note.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Orc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/PolyConstructors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/PrivateOverride.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Transmogrify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Villain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c07/Wind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c08/Callbacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c08/Contents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c08/Destination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/AssociativeArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Counter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/GFG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Geek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Gerbil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Hamster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/PetCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Pug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Rodent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/Shapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/SweetShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c10/ToyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/ArraySearching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Arrays2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/BooleanGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/CharGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Collection1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Collections2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/ComType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/CompTypeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/ComparingArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/CountryCapitals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/FillTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Groundhog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Hamster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/InfiniteRecursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/IntGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/MapGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Mouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/MouseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/MouseTrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Prediction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/PrintingContainers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Set1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/Set2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/SimpleCollection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/SortedSetDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/SpringDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/StackL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c11/WorksAnyway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c12/CanonicalMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c12/CountedString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c12/FailFast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c12/Individual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c12/MapEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c12/MyMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c12/ReadOnly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c12/SimpleHashTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c12/VeryBig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xiantang/mypackage/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xiantang/mypackage/AA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xiantang/mypackage/DD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xiantang/mypackage/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/ADeamon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Accessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Atomicity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/AttemptLocking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/AyomicIntegerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/BlockedMutex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Blocker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Busy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/CacheThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/CallableDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/CaptureUncaugthException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/CircularSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/CriticalSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Daemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/DaemonFromFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/DaemonThreadFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/DaemonThreadPooExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/EvenChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/EvenGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/ExceptionThread1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/ExpicitPairManager1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/FibonaciiC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/IntGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Interrupting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/InterruptingIdiom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Joinning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/LIftOff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/LiftOn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/MultiLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/MyField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/OrnametalGarden.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Restaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/RunDD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/SerialNumberGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/SimpleDaemons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/SimplePriorities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/SimpleThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/SingleThreadExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/SleepTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Sleeper1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/SyncCodeBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/SyncObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/SynchronizedEvenGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Tasssk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Test15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/ThreadVariations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/UseWait.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/WaxOMatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/factory/DDD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/factory/MyAppThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/factory/MyThreadFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/factory/ThreadFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/lengthOfLongestSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/waxmatic2/BoundedExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/waxmatic2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/waxmatic2/WaxMatic2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/BasicGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/Coffee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/CoffeeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/CountedObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/Derived1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/ErasedTypeEquivalence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/ExplicitTypeSecification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/Generators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/GenericBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/GenericMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/GenericVarargs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/HasF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/Holder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/Leet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/LinkedStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/Manipulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/New.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/RandomList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/ThreeTuple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/TwoTuple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hape/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hape/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hape/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hape/Traiangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/Aline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/BasicFileOutPut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/Blip1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/BufferedInputFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/DirFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/DirList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/DirList2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/Directory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/FileOutputShortcut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/FormattedMemoryInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/FreezeAliem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/MemoryInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/StoringAndRecoveringData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/ThawAllen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/Worm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thinkinjava/Blips.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thinkinjava/Data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thinkinjava/JavaBook.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thinkinjava/io/X.file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thinkinjava/worm.txt" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,138 +643,96 @@
     <expand />
     <select />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="886363113">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="27" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="27" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="java" value="469" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="469" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.136" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5260116">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/factory/ThreadFactory.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/factory/MyThreadFactory.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="989">
-                  <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/CriticalSection.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2415">
-                  <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#2219#2220#0" expanded="true" />
-                    <element signature="e#2269#2270#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/MyField.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/factory/DDD.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-214">
-                  <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/SyncCodeBlock.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/waxmatic2/WaxMatic2.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/UseWait.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/annotations/databases/TableCreator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/factory/MyAppThread.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/AyomicIntegerTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/concurrency/waxmatic2/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThreadSafety/StatelessFactorizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThreadSafety/LazyInitRace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ThreadSafety/CountingFactorizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,7 +747,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>8</find>
       <find>List</find>
       <find>LIst</find>
       <find>readLine</find>
@@ -199,27 +776,15 @@
       <find>setReject</find>
       <find>synchronized(</find>
       <find>lock</find>
+      <find>append</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/concurrency/DaemonThreadPooExecutor.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/Daemon.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/SimpleThread.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/Sleeper.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/Sleeper1.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/Joinning.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/Exception.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/ExceptionThread.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/FibonaciiC.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/ThreadVariations.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/ExceptionThread1.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/CaptureUncaugthException.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/IntGenerator.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/EvenChecker.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/EvenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/concurrency/SynchronizedEvenGenerator.java" />
         <option value="$PROJECT_DIR$/src/concurrency/CallableDemo.java" />
         <option value="$PROJECT_DIR$/src/concurrency/AttemptLocking.java" />
         <option value="$PROJECT_DIR$/src/concurrency/MyField.java" />
@@ -255,8 +820,37 @@
         <option value="$PROJECT_DIR$/src/concurrency/waxmatic2/WaxMatic2.java" />
         <option value="$PROJECT_DIR$/src/concurrency/factory/DDD.java" />
         <option value="$PROJECT_DIR$/src/concurrency/SyncCodeBlock.java" />
+        <option value="$PROJECT_DIR$/src/jvm/DDD.java" />
+        <option value="$PROJECT_DIR$/src/sqas/DDD.java" />
+        <option value="$PROJECT_DIR$/src/Xiantang.java" />
+        <option value="$PROJECT_DIR$/src/Xiantanggaio.java" />
+        <option value="$PROJECT_DIR$/src/thinkinjava/AA.java" />
+        <option value="$PROJECT_DIR$/src/UnsafeSequence.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/UnsafeSequence.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/Introduction/UnsafeSequence.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/Introduction/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/concurrency/ThreahSafety/StatelessFactorizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/thinkinjava/c06/BlankFinal.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/StatelessFactorizer.java" />
+        <option value="$PROJECT_DIR$/src/ThreadSafety/StatelessFactorizer.java" />
+        <option value="$PROJECT_DIR$/src/ThreadSafety/LazyInitRace.java" />
+        <option value="$PROJECT_DIR$/src/ThreadSafety/CountingFactorizer.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -265,8 +859,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1037" />
-    <option name="y" value="81" />
+    <option name="x" value="600" />
+    <option name="y" value="91" />
     <option name="width" value="1920" />
     <option name="height" value="956" />
   </component>
@@ -275,30 +869,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadSafety" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,18 +912,21 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dd/project/ThinkingInJava/src/c07/Hide.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553170557293" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553343356245" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.20542635" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/think" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="concurrency.factory" />
       <recent name="io" />
@@ -338,13 +945,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DDD">
-    <configuration name="CriticalSection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.CriticalSection" />
-      <module name="ThinkingInJava" />
+  <component name="RunManager" selected="Tomcat Server.xiantang">
+    <configuration name="AA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkinjava.AA" />
+      <module name="JavaBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="thinkinjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkinjava.Chess" />
+      <module name="JavaBook" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkinjava.DD" />
+      <module name="JavaBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinkinjava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,11 +980,11 @@
       </method>
     </configuration>
     <configuration name="DDD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.factory.DDD" />
-      <module name="ThinkingInJava" />
+      <option name="MAIN_CLASS_NAME" value="thinkinjava.concurrency.factory.DDD" />
+      <module name="JavaBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.factory.*" />
+          <option name="PATTERN" value="thinkinjava.concurrency.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,12 +992,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.waxmatic2.Main" />
+    <configuration name="DDD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sqas.DDD" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.waxmatic2.*" />
+          <option name="PATTERN" value="sqas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,46 +1007,228 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThreadFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.factory.MyThreadFactory" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrency.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Xiantanggaio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkinjava.Xiantanggaio" />
+      <module name="JavaBook" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaxMatic2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.waxmatic2.WaxMatic2" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="concurrency.waxmatic2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="JavaBook" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="JavaBook" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="JavaBook" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="JavaBook" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.351" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ThinkingInJava" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60849" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xiantang" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.351" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="unnamed">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ThinkingInJava_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60849" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="unnamed" />
+        </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WaxMatic2" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MyThreadFactory" />
-      <item itemvalue="Application.CriticalSection" />
+      <item itemvalue="Tomcat Server.xiantang" />
       <item itemvalue="Application.DDD" />
+      <item itemvalue="Application.Chess" />
+      <item itemvalue="Application.Xiantanggaio" />
+      <item itemvalue="Application.DD" />
+      <item itemvalue="Application.AA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AA" />
+        <item itemvalue="Application.Xiantanggaio" />
+        <item itemvalue="Application.DD" />
         <item itemvalue="Application.DDD" />
-        <item itemvalue="Application.CriticalSection" />
-        <item itemvalue="Application.MyThreadFactory" />
-        <item itemvalue="Application.WaxMatic2" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Chess" />
       </list>
     </recent_temporary>
   </component>
@@ -459,6 +1270,8 @@
       <workItem from="1553073580386" duration="9080000" />
       <workItem from="1553127662533" duration="464000" />
       <workItem from="1553166558152" duration="2216000" />
+      <workItem from="1553312269535" duration="4330000" />
+      <workItem from="1553390069151" duration="517000" />
     </task>
     <servers />
   </component>
@@ -480,7 +1293,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231271000" />
+    <option name="totallyTimeSpent" value="236549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,20 +1305,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="426" y="85" width="1920" height="956" extended-state="0" />
-    <editor active="true" />
+    <frame x="600" y="91" width="1920" height="956" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.17580645" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.18051118" />
       <window_info id="Structure" order="1" sideWeight="0.5019531" side_tool="true" weight="0.26090115" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49574015" weight="0.32847533" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5494624" visible="true" weight="0.43377885" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4941427" weight="0.3275463" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72097975" visible="true" weight="0.43287036" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48509052" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,10 +1324,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.45053762" side_tool="true" visible="true" weight="0.43377885" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48978496" weight="0.3278496" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.27902022" side_tool="true" visible="true" weight="0.43287036" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.485623" weight="0.3275463" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32896462" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49946752" weight="0.3298611" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -527,6 +1339,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32994187" />
       <window_info anchor="right" id="Module Dependencies" order="9" weight="0.32994187" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.27180234" />
@@ -564,11 +1377,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/thinkinjava/Main.java</url>
           <line>14</line>
           <properties />
           <option name="timeStamp" value="2" />
@@ -580,37 +1396,37 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/c07/Music.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/thinkinjava/c07/Music.java</url>
           <line>4</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/c10/PetCount.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/thinkinjava/c10/PetCount.java</url>
           <line>15</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/c11/SpringDetector.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/thinkinjava/c11/SpringDetector.java</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/generics/New.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/thinkinjava/generics/New.java</url>
           <line>22</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/annotations/databases/TableCreator.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/thinkinjava/annotations/databases/TableCreator.java</url>
           <line>56</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/concurrency/lengthOfLongestSubstring.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/lengthOfLongestSubstring.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="15" />
@@ -629,129 +1445,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/StackOverflowError.java" />
-    <entry file="file://$PROJECT_DIR$/src/concurrency/OrnametalGarden.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/Tasssk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/LIftOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/System.java" />
-    <entry file="file://$PROJECT_DIR$/src/concurrency/lengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/CacheThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/Interrupting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/MultiLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/BlockedMutex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/LinkedList.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Deque.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/CharSequence.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Character.java" />
-    <entry file="file://$PROJECT_DIR$/src/concurrency/CallableDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Object.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Runnable.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Integer.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/ThreadLocalCoders.class" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java" />
-    <entry file="file://$PROJECT_DIR$/src/concurrency/InterruptingIdiom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/WaxOMatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1919">
-          <caret line="113" column="42" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/concurrency/RunDD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/Busy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/Blocker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="62" column="32" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" />
     <entry file="uml://JAVA/java.util.concurrent.ThreadPoolExecutor">
@@ -787,113 +1480,103 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Lock.class" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java" />
-    <entry file="file://$PROJECT_DIR$/src/concurrency/waxmatic2/BoundedExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/waxmatic2/BoundedExecutor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/factory/ThreadFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/factory/MyThreadFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/CriticalSection.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/MyField.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/factory/MyAppThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/AyomicIntegerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/waxmatic2/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/Blips.out" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/annotations/databases/TableCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/UseWait.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/waxmatic2/WaxMatic2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/factory/DDD.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/concurrency/SyncCodeBlock.java" />
+    <entry file="file://$PROJECT_DIR$/src/sqas/DDD.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1995">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="11" selection-end-line="134" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/factory/ThreadFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/DD.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="4332">
+          <caret line="267" column="30" selection-start-line="267" selection-start-column="30" selection-end-line="267" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/factory/MyThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/CriticalSection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
-          <folding>
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2269#2270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/MyField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/factory/MyAppThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/AyomicIntegerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/waxmatic2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blips.out">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/Xiantanggaio.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/BoardGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/Book.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/Chess.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/FatherClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/PrimitiveOverloading.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/SonClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/SprinklerSystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/ToolTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/A.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/ThreahSafety/StatelessFactorizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Introduction/UnsafeSequence.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/AA.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/thinkinjava/c06/BlankFinal.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/Introduction/Sequence.java" />
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/annotations/databases/TableCreator.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="155">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/UseWait.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="155">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/waxmatic2/WaxMatic2.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="570">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreadSafety/StatelessFactorizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/factory/DDD.java">
+    <entry file="file://$PROJECT_DIR$/src/ThreadSafety/LazyInitRace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="152">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/concurrency/SyncCodeBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/ThreadSafety/CountingFactorizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="273">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -903,10 +1586,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20542635" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -918,7 +1603,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20542635" />
               </list>
             </option>
           </splitter-proportions>
@@ -941,7 +1626,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20542635" />
               </list>
             </option>
           </splitter-proportions>
@@ -949,12 +1634,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ThinkingInJava</last-edited>
+          <last-edited>JavaBook</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.20542635" />
               </list>
             </option>
           </splitter-proportions>
@@ -974,10 +1658,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20542635" />
               </list>
             </option>
           </splitter-proportions>

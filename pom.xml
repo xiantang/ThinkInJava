@@ -8,6 +8,11 @@
     <artifactId>JavaBook</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
+        <resources>
+            <resource>
+                <directory>src/source</directory>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

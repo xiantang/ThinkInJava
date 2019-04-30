@@ -663,115 +663,254 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/Worker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/Semaphore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/SimulatedCAS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/CasCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/AtinucPseudoRandom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/ConcurrentStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-              <folding>
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/LinkedQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ConcurrentLinkedQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/TheJavaMemoryModel/PossibleReordering.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-              <folding>
-                <element signature="e#270#410#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#445#585#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2829">
-              <caret line="144" column="15" selection-start-line="144" selection-start-column="15" selection-end-line="144" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.77907693">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/Cat.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="230">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/EncryptionAdapter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#214#215#0" expanded="true" />
+                    <element signature="e#262#263#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/Adapter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="138">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                  <folding>
+                    <element signature="e#218#219#0" expanded="true" />
+                    <element signature="e#256#257#0" expanded="true" />
+                    <element signature="e#313#314#0" expanded="true" />
+                    <element signature="e#351#352#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/ThirdPartyEncryption.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="276">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="e#166#167#0" expanded="true" />
+                    <element signature="e#205#206#0" expanded="true" />
+                    <element signature="e#250#251#0" expanded="true" />
+                    <element signature="e#289#290#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/builder/Computer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/composite/TeachingPoint.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="141">
+                  <caret line="10" selection-start-line="10" selection-end-line="28" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#267#281#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/composite/BranchCampu.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="138">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#193#204#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="uml://JAVA/designpattern.composite">
+              <provider selected="true" editor-type-id="UmlEditorProvider">
+                <state>
+                  <ID>JAVA</ID>
+                  <OriginalElement>designpattern.composite</OriginalElement>
+                  <nodes>
+                    <node x="0.0" y="317.0">designpattern.composite.Client</node>
+                    <node x="233.0" y="149.0">designpattern.composite.TeachingPoint</node>
+                    <node x="777.0" y="149.0">designpattern.composite.BranchCampu</node>
+                    <node x="505.0" y="149.0">designpattern.composite.Headquarter</node>
+                    <node x="388.5" y="0.0">designpattern.composite.Composite</node>
+                    <node x="0.0" y="161.0">designpattern.composite.Office</node>
+                  </nodes>
+                  <notes />
+                  <edges>
+                    <edge source="designpattern.composite.TeachingPoint" target="designpattern.composite.Composite">
+                      <point x="0.0" y="-61.5" />
+                      <point x="359.0" y="129.0" />
+                      <point x="468.375" y="129.0" />
+                      <point x="-26.625" y="49.5" />
+                    </edge>
+                    <edge source="designpattern.composite.Office" target="designpattern.composite.Composite">
+                      <point x="0.0" y="-49.5" />
+                      <point x="106.5" y="119.0" />
+                      <point x="415.125" y="119.0" />
+                      <point x="-79.875" y="49.5" />
+                    </edge>
+                    <edge source="designpattern.composite.Headquarter" target="designpattern.composite.Composite">
+                      <point x="0.0" y="-61.5" />
+                      <point x="631.0" y="129.0" />
+                      <point x="521.625" y="129.0" />
+                      <point x="26.625" y="49.5" />
+                    </edge>
+                    <edge source="designpattern.composite.BranchCampu" target="designpattern.composite.Composite">
+                      <point x="0.0" y="-61.5" />
+                      <point x="903.0" y="119.0" />
+                      <point x="574.875" y="119.0" />
+                      <point x="79.875" y="49.5" />
+                    </edge>
+                  </edges>
+                  <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="49.0" />
+                  <SelectedNodes>
+                    <node>designpattern.composite.Office</node>
+                  </SelectedNodes>
+                  <Categories>
+                    <Category>Fields</Category>
+                    <Category>Methods</Category>
+                  </Categories>
+                  <SCOPE>All</SCOPE>
+                  <VISIBILITY>private</VISIBILITY>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Client.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Office.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/builder/Computer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="uml://JAVA/designpattern.adopter.b">
+              <provider selected="true" editor-type-id="UmlEditorProvider">
+                <state>
+                  <ID>JAVA</ID>
+                  <OriginalElement>designpattern.adopter.b</OriginalElement>
+                  <nodes>
+                    <node x="262.5" y="126.0">designpattern.adopter.b.EncryptionAdapter</node>
+                    <node x="50.5" y="138.0">designpattern.adopter.b.Adapter</node>
+                    <node x="224.0" y="0.0">designpattern.adopter.b.Encryption</node>
+                    <node x="0.0" y="0.0">designpattern.adopter.b.ThirdPartyEncryption</node>
+                  </nodes>
+                  <notes />
+                  <edges>
+                    <edge source="designpattern.adopter.b.EncryptionAdapter" target="designpattern.adopter.b.Encryption">
+                      <point x="0.0" y="-50.0" />
+                      <point x="48.0" y="38.0" />
+                    </edge>
+                    <edge source="designpattern.adopter.b.Adapter" target="designpattern.adopter.b.ThirdPartyEncryption">
+                      <point x="-48.0" y="-38.0" />
+                      <point x="0.0" y="38.0" />
+                    </edge>
+                    <edge source="designpattern.adopter.b.Adapter" target="designpattern.adopter.b.Encryption">
+                      <point x="48.0" y="-38.0" />
+                      <point x="194.5" y="101.0" />
+                      <point x="272.0" y="101.0" />
+                      <point x="-48.0" y="38.0" />
+                    </edge>
+                  </edges>
+                  <settings layout="Hierarchic Group" zoom="0.8947368421052632" x="258.2352941176471" y="-105.5" />
+                  <SelectedNodes />
+                  <Categories>
+                    <Category>Fields</Category>
+                    <Category>Methods</Category>
+                  </Categories>
+                  <SCOPE>All</SCOPE>
+                  <VISIBILITY>private</VISIBILITY>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Composite.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="368">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Headquarter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#231#242#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -827,57 +966,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ThreadSafety/Permutation.java" />
-        <option value="$PROJECT_DIR$/src/ThreadSafety/LazyInitRace.java" />
-        <option value="$PROJECT_DIR$/src/ThreadSafety/FileCrawler.java" />
-        <option value="$PROJECT_DIR$/src/ThreadSafety/DDD.java" />
-        <option value="$PROJECT_DIR$/src/ThreadSafety/ArrangementUtil.java" />
-        <option value="$PROJECT_DIR$/src/ThreadSafety/PermutationTest.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/PermutationTest.java" />
-        <option value="$PROJECT_DIR$/src/codingInterviews/Duplicate.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/SingleThreadWebServer.java" />
-        <option value="$PROJECT_DIR$/src/NIO/readandshow.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/NIO/LearnNIO.java" />
-        <option value="$PROJECT_DIR$/src/NIO/MultiPortEcho.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/ThradPerTaskExecutor.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/TaskExcutionWebServer.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/PrimeGenerator.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/ReaderThread.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/ExecutorService.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/PrimeProducer.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/ApplyingThreadPools/MyThreadFactory.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/AvoidingLivenessHazards.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/AvoidingLivenessHazards/InduceLockOrder.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/PerformanceAndScalability/AttributeStore.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/PerformanceAndScalability/ServerStatus.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/ApplyingThreadPools/MyAppThread.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/ExplicitLocks/DeadlockAvoidance.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/PerformanceAndScalability/StripedMap.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/ExplicitLocks/TimedLocking.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/ExplicitLocks/ReadWriteMap.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/BaseBoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/GrumpyBoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/Person.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/SleepyBoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/BoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ThreadGate.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/CondictionBoundedBuffer.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/SemaphoreOnLock.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/OneShotLatch.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/BufferEmptyException.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/Worker.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/Semaphore.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/SimulatedCAS.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/CasCounter.java" />
-        <option value="$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/AtinucPseudoRandom.java" />
         <option value="$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/ConcurrentStack.java" />
         <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ConcurrentLinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/JavaConcurrency/TheJavaMemoryModel.java" />
         <option value="$PROJECT_DIR$/src/JavaConcurrency/TheJavaMemoryModel/PossibleReordering.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/HaierTV.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/TCLTV.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/AirConditioner.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/HaierAirConditioner.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/TCLAirConditioner.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/Factory.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/HaierAirFactory.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/HaierFactory.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/TCLFactory.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory/AirConditioner.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/TV.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory/TV.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory1/Connection.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory1/Statement.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory1/MysqlConnection.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory1/MysqlStatement.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory1/Factory.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory1/MysqlFactory.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory1/OracleStatement.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/factory1/OracleFactory.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/builder/Computer.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/builder/Builder.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/builder/ComputerBuilder.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/builder/BuilderController.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/singleton/Pool.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/singleton/Client.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/singleton/JInternalFrameDemo.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/singleton/JInternalFrame1.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/singleton/Emperor.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adopter/Cat.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adopter/Gog.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adopter/Dog.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adopter/adopter.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adopter/b/Encryption.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adopter/b/ThirdPartyEncryption.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adopter/b/EncryptionAdapter.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/adopter/b/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/composite/Company.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/composite/Headquarters.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/composite/Composite.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/composite/Office.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/composite/BranchCampu.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/composite/Headquarter.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/composite/TeachingPoint.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/composite/Client.java" />
       </list>
     </option>
   </component>
@@ -900,9 +1039,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4" />
-    <option name="y" value="42" />
-    <option name="width" value="1936" />
+    <option name="x" value="638" />
+    <option name="y" value="15" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -911,6 +1050,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -927,7 +1067,7 @@
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -938,7 +1078,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -948,7 +1087,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dd/project/ThinkingInJava/src/c07/Hide.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556440962314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556606751841" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Source" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -961,19 +1100,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="JavaConcurrency.BuildingCustomSynchronizers" />
-      <recent name="JavaConcurrency.ApplyingThreadPools" />
-      <recent name="ComposingObjects" />
-      <recent name="concurrency.factory" />
-      <recent name="io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Project\ThinkInJava\src" />
       <recent name="E:\Project\ThinkInJava" />
       <recent name="E:\Project\ThinkInJava\src\source" />
       <recent name="E:\Project\ThinkInJava\src\NIO" />
       <recent name="$PROJECT_DIR$/src/think" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="designpattern.singleton" />
+      <recent name="JavaConcurrency.BuildingCustomSynchronizers" />
+      <recent name="JavaConcurrency.ApplyingThreadPools" />
+      <recent name="ComposingObjects" />
+      <recent name="concurrency.factory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -988,7 +1127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PossibleReordering">
+  <component name="RunManager" selected="Application.Client (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="JavaBook" />
       <working_directory value="$PROJECT_DIR$" />
@@ -1008,12 +1147,25 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="CasCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaConcurrency.AtomicVariablesAndNonblockingSynchronization.CasCounter" />
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.composite.Client" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaConcurrency.AtomicVariablesAndNonblockingSynchronization.*" />
+          <option name="PATTERN" value="designpattern.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.singleton.Client" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1047,25 +1199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaConcurrency.BuildingCustomSynchronizers.Test" />
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designpattern.singleton.Singleton" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaConcurrency.BuildingCustomSynchronizers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Worker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaConcurrency.CancellationAndShutdown.Worker" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaConcurrency.CancellationAndShutdown.*" />
+          <option name="PATTERN" value="designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1255,20 +1394,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Worker" />
-      <item itemvalue="Application.CasCounter" />
       <item itemvalue="Application.ConcurrentStack" />
-      <item itemvalue="Tomcat Server.xiantang" />
       <item itemvalue="Application.PossibleReordering" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Singleton" />
+      <item itemvalue="Tomcat Server.xiantang" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Singleton" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.PossibleReordering" />
         <item itemvalue="Application.ConcurrentStack" />
-        <item itemvalue="Application.CasCounter" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Worker" />
       </list>
     </recent_temporary>
   </component>
@@ -1344,7 +1483,10 @@
       <workItem from="1556160723863" duration="13010000" />
       <workItem from="1556200556189" duration="361000" />
       <workItem from="1556284241835" duration="16105000" />
-      <workItem from="1556439327038" duration="1089000" />
+      <workItem from="1556439327038" duration="4842000" />
+      <workItem from="1556500535957" duration="3845000" />
+      <workItem from="1556507609893" duration="1547000" />
+      <workItem from="1556604830755" duration="1700000" />
     </task>
     <servers />
   </component>
@@ -1366,7 +1508,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365151000" />
+    <option name="totallyTimeSpent" value="375996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1380,7 +1522,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.17963752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49804688" visible="true" weight="0.1337953" />
       <window_info id="Structure" order="1" sideWeight="0.5019531" side_tool="true" weight="0.26090115" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1390,7 +1532,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4935484" weight="0.32682925" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.65831554" visible="true" weight="0.27193934" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65831554" visible="true" weight="0.17009751" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47654584" weight="0.40628386" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1539,6 +1681,12 @@
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/designpattern/singleton/Singleton.java</url>
+          <line>6</line>
+          <properties field="a" class="designpattern.singleton.Singleton" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1547,412 +1695,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/ThradPerTaskExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/PrimeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ApplyingThreadPools/MyAppThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/aaa.java" />
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ExplicitLocks/DeadlockAvoidance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/ImprovedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/PersonSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/NumberRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/PrivateLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/PerformanceAndScalability/aa.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="413" column="32" selection-start-line="413" selection-start-column="32" selection-end-line="413" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="185" column="9" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ExplicitLocks/TimedLocking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ExplicitLocks/ReadWriteMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/BaseBoundedBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/GrumpyBoundedBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/Semaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="86" column="26" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/SleepyBoundedBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/BoundedBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="291" column="13" selection-start-line="291" selection-start-column="13" selection-end-line="291" selection-end-column="13" />
-          <folding>
-            <element signature="e#9900#9901#0" expanded="true" />
-            <element signature="e#9937#9938#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="266" column="14" lean-forward="true" selection-start-line="266" selection-start-column="14" selection-end-line="266" selection-end-column="14" />
-          <folding>
-            <element signature="e#7758#7759#0" expanded="true" />
-            <element signature="e#7798#7799#0" expanded="true" />
-            <element signature="e#8699#8700#0" expanded="true" />
-            <element signature="e#8730#8731#0" expanded="true" />
-            <element signature="e#15434#15435#0" expanded="true" />
-            <element signature="e#15465#15466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/OneShotLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ThreadGate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/CondictionBoundedBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/invoke/VarHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="729" column="12" selection-start-line="729" selection-start-column="12" selection-end-line="729" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/SemaphoreOnLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="178" column="59" selection-start-line="178" selection-start-column="59" selection-end-line="178" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/ArrangementUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/PerformanceAndScalability/StripedMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/ReaderThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="1240" column="27" selection-start-line="1240" selection-start-column="27" selection-end-line="1240" selection-end-column="27" />
-          <folding>
-            <element signature="e#24278#24279#0" expanded="true" />
-            <element signature="e#24306#24307#0" expanded="true" />
-            <element signature="e#34263#34264#0" expanded="true" />
-            <element signature="e#34313#34314#0" expanded="true" />
-            <element signature="e#43922#43923#0" expanded="true" />
-            <element signature="e#43979#43980#0" expanded="true" />
-            <element signature="e#46959#46960#0" expanded="true" />
-            <element signature="e#47016#47017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="835" selection-start-line="835" selection-end-line="835" />
-          <folding>
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="176" column="4" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="263" column="32" selection-start-line="263" selection-start-column="32" selection-end-line="263" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="303" column="32" selection-start-line="303" selection-start-column="32" selection-end-line="303" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/atomic/AtomicReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="115" column="30" lean-forward="true" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/BufferEmptyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/Semaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/SimulatedCAS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/CasCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/AtinucPseudoRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/ConcurrentStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2829">
-          <caret line="144" column="15" selection-start-line="144" selection-start-column="15" selection-end-line="144" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/TheJavaMemoryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ConcurrentLinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -1969,6 +1711,731 @@
             <element signature="e#409#410#0" expanded="true" />
             <element signature="e#445#585#0" expanded="true" />
             <element signature="e#584#585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/designpattern">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>designpattern</OriginalElement>
+          <nodes>
+            <node x="0.0" y="126.0">designpattern.factory.TCLFactory</node>
+            <node x="70.0" y="402.0">designpattern.factory.TV</node>
+            <node x="144.0" y="0.0">designpattern.factory.Factory</node>
+            <node x="0.0" y="482.0">designpattern.factory.HaierTV</node>
+            <node x="114.0" y="482.0">designpattern.factory.TCLTV</node>
+            <node x="104.5" y="247.0">designpattern.factory.AirConditioner</node>
+            <node x="0.0" y="327.0">designpattern.factory.HaierAirConditioner</node>
+            <node x="183.0" y="327.0">designpattern.factory.TCLAirConditioner</node>
+            <node x="288.0" y="126.0">designpattern.factory.HaierFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="designpattern.factory.HaierTV" target="designpattern.factory.TV">
+              <point x="0.0" y="-15.0" />
+              <point x="47.0" y="457.0" />
+              <point x="85.75" y="457.0" />
+              <point x="-15.75" y="15.0" />
+            </edge>
+            <edge source="designpattern.factory.HaierFactory" target="designpattern.factory.Factory">
+              <point x="0.0" y="-38.0" />
+              <point x="422.0" y="101.0" />
+              <point x="345.0" y="101.0" />
+              <point x="67.0" y="38.0" />
+            </edge>
+            <edge source="designpattern.factory.HaierAirConditioner" target="designpattern.factory.AirConditioner">
+              <point x="0.0" y="-15.0" />
+              <point x="81.5" y="302.0" />
+              <point x="137.5" y="302.0" />
+              <point x="-33.0" y="15.0" />
+            </edge>
+            <edge source="designpattern.factory.TCLFactory" target="designpattern.factory.Factory">
+              <point x="0.0" y="-38.0" />
+              <point x="134.0" y="101.0" />
+              <point x="211.0" y="101.0" />
+              <point x="-67.0" y="38.0" />
+            </edge>
+            <edge source="designpattern.factory.TCLTV" target="designpattern.factory.TV">
+              <point x="0.0" y="-15.0" />
+              <point x="156.0" y="457.0" />
+              <point x="117.25" y="457.0" />
+              <point x="15.75" y="15.0" />
+            </edge>
+            <edge source="designpattern.factory.TCLAirConditioner" target="designpattern.factory.AirConditioner">
+              <point x="0.0" y="-15.0" />
+              <point x="259.5" y="302.0" />
+              <point x="203.5" y="302.0" />
+              <point x="33.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-251.0" y="186.0" />
+          <SelectedNodes>
+            <node>designpattern.factory.Factory</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory/AirConditioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory/HaierAirConditioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory/HaierFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory/HaierTV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory/TCLAirConditioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory/TCLFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory/TCLTV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory/TV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/designpattern.factory1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>designpattern.factory1</OriginalElement>
+          <nodes>
+            <node x="133.0" y="0.0">designpattern.factory1.Factory</node>
+            <node x="0.0" y="126.0">designpattern.factory1.MysqlFactory</node>
+            <node x="0.0" y="327.0">designpattern.factory1.OracleConnection</node>
+            <node x="0.0" y="482.0">designpattern.factory1.OracleStatement</node>
+            <node x="266.0" y="126.0">designpattern.factory1.OracleFactory</node>
+            <node x="171.0" y="327.0">designpattern.factory1.MysqlConnection</node>
+            <node x="164.0" y="482.0">designpattern.factory1.MysqlStatement</node>
+            <node x="103.75" y="247.0">designpattern.factory1.Connection</node>
+            <node x="100.25" y="402.0">designpattern.factory1.Statement</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="designpattern.factory1.MysqlStatement" target="designpattern.factory1.Statement">
+              <point x="0.0" y="-15.0" />
+              <point x="234.5" y="457.0" />
+              <point x="179.75" y="457.0" />
+              <point x="26.5" y="15.0" />
+            </edge>
+            <edge source="designpattern.factory1.MysqlConnection" target="designpattern.factory1.Connection">
+              <point x="0.0" y="-15.0" />
+              <point x="245.0" y="302.0" />
+              <point x="188.5" y="302.0" />
+              <point x="28.25" y="15.0" />
+            </edge>
+            <edge source="designpattern.factory1.OracleConnection" target="designpattern.factory1.Connection">
+              <point x="0.0" y="-15.0" />
+              <point x="75.5" y="302.0" />
+              <point x="132.0" y="302.0" />
+              <point x="-28.25" y="15.0" />
+            </edge>
+            <edge source="designpattern.factory1.OracleFactory" target="designpattern.factory1.Factory">
+              <point x="0.0" y="-38.0" />
+              <point x="389.0" y="101.0" />
+              <point x="317.5" y="101.0" />
+              <point x="61.5" y="38.0" />
+            </edge>
+            <edge source="designpattern.factory1.OracleStatement" target="designpattern.factory1.Statement">
+              <point x="0.0" y="-15.0" />
+              <point x="72.0" y="457.0" />
+              <point x="126.75" y="457.0" />
+              <point x="-26.5" y="15.0" />
+            </edge>
+            <edge source="designpattern.factory1.MysqlFactory" target="designpattern.factory1.Factory">
+              <point x="0.0" y="-38.0" />
+              <point x="123.0" y="101.0" />
+              <point x="194.5" y="101.0" />
+              <point x="-61.5" y="38.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-273.0" y="186.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/MysqlConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/designpattern.builder">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>designpattern.builder</OriginalElement>
+          <nodes>
+            <node x="260.0" y="0.0">designpattern.builder.Computer</node>
+            <node x="0.0" y="432.0">designpattern.builder.BuilderController</node>
+            <node x="13.5" y="242.0">designpattern.builder.ComputerBuilder</node>
+            <node x="0.0" y="0.0">designpattern.builder.Builder</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="designpattern.builder.ComputerBuilder" target="designpattern.builder.Builder">
+              <point x="0.0" y="-72.5" />
+              <point x="0.0" y="96.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="235.0" y="278.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/MysqlFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/OracleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/OracleStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/MysqlStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/builder/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/designpattern.singleton">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>designpattern.singleton</OriginalElement>
+          <nodes>
+            <node x="268.0" y="0.0">designpattern.singleton.JInternalFrameDemo</node>
+            <node x="0.0" y="359.0">designpattern.singleton.JInternalFrame1</node>
+            <node x="0.0" y="0.0">designpattern.singleton.Emperor</node>
+            <node x="0.0" y="214.0">designpattern.singleton.Pool</node>
+            <node x="0.0" y="481.0">designpattern.singleton.Client</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="177.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/Pool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/JInternalFrameDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/Emperor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/JInternalFrame1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/builder/ComputerBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/builder/BuilderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/designpattern.adopter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>designpattern.adopter</OriginalElement>
+          <nodes>
+            <node x="79.75" y="103.0">designpattern.adopter.adopter</node>
+            <node x="0.0" y="0.0">designpattern.adopter.Cat</node>
+            <node x="167.0" y="0.0">designpattern.adopter.Dog</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="designpattern.adopter.adopter" target="designpattern.adopter.Dog">
+              <point x="36.75" y="-61.5" />
+              <point x="190.0" y="78.0" />
+              <point x="233.0" y="78.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="designpattern.adopter.adopter" target="designpattern.adopter.Cat">
+              <point x="-36.75" y="-61.5" />
+              <point x="116.5" y="78.0" />
+              <point x="73.5" y="78.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-60.0" y="-82.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/adopter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/EncryptionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/ThirdPartyEncryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/builder/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Download/singleton/Client.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Download/singleton/LoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/designpattern.adopter.b">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>designpattern.adopter.b</OriginalElement>
+          <nodes>
+            <node x="262.5" y="126.0">designpattern.adopter.b.EncryptionAdapter</node>
+            <node x="50.5" y="138.0">designpattern.adopter.b.Adapter</node>
+            <node x="224.0" y="0.0">designpattern.adopter.b.Encryption</node>
+            <node x="0.0" y="0.0">designpattern.adopter.b.ThirdPartyEncryption</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="designpattern.adopter.b.EncryptionAdapter" target="designpattern.adopter.b.Encryption">
+              <point x="0.0" y="-50.0" />
+              <point x="48.0" y="38.0" />
+            </edge>
+            <edge source="designpattern.adopter.b.Adapter" target="designpattern.adopter.b.ThirdPartyEncryption">
+              <point x="-48.0" y="-38.0" />
+              <point x="0.0" y="38.0" />
+            </edge>
+            <edge source="designpattern.adopter.b.Adapter" target="designpattern.adopter.b.Encryption">
+              <point x="48.0" y="-38.0" />
+              <point x="194.5" y="101.0" />
+              <point x="272.0" y="101.0" />
+              <point x="-48.0" y="38.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8947368421052632" x="258.2352941176471" y="-105.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/designpattern.composite">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>designpattern.composite</OriginalElement>
+          <nodes>
+            <node x="0.0" y="317.0">designpattern.composite.Client</node>
+            <node x="233.0" y="149.0">designpattern.composite.TeachingPoint</node>
+            <node x="777.0" y="149.0">designpattern.composite.BranchCampu</node>
+            <node x="505.0" y="149.0">designpattern.composite.Headquarter</node>
+            <node x="388.5" y="0.0">designpattern.composite.Composite</node>
+            <node x="0.0" y="161.0">designpattern.composite.Office</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="designpattern.composite.TeachingPoint" target="designpattern.composite.Composite">
+              <point x="0.0" y="-61.5" />
+              <point x="359.0" y="129.0" />
+              <point x="468.375" y="129.0" />
+              <point x="-26.625" y="49.5" />
+            </edge>
+            <edge source="designpattern.composite.Office" target="designpattern.composite.Composite">
+              <point x="0.0" y="-49.5" />
+              <point x="106.5" y="119.0" />
+              <point x="415.125" y="119.0" />
+              <point x="-79.875" y="49.5" />
+            </edge>
+            <edge source="designpattern.composite.Headquarter" target="designpattern.composite.Composite">
+              <point x="0.0" y="-61.5" />
+              <point x="631.0" y="129.0" />
+              <point x="521.625" y="129.0" />
+              <point x="26.625" y="49.5" />
+            </edge>
+            <edge source="designpattern.composite.BranchCampu" target="designpattern.composite.Composite">
+              <point x="0.0" y="-61.5" />
+              <point x="903.0" y="119.0" />
+              <point x="574.875" y="119.0" />
+              <point x="79.875" y="49.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="49.0" />
+          <SelectedNodes>
+            <node>designpattern.composite.Office</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/BranchCampu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Headquarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Office.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/TeachingPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="10" selection-start-line="10" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#281#0" expanded="true" />
           </folding>
         </state>
       </provider>

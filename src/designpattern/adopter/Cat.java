@@ -5,6 +5,7 @@ package designpattern.adopter;
  * @Date: 2019/4/29 11:14
  */
 public interface Cat {
+
     void catchM();
 
 }

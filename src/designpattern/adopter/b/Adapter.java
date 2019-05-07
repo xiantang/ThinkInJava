@@ -8,6 +8,7 @@ public class Adapter extends ThirdPartyEncryption implements Encryption {
 
     @Override
     public String encode(String string) {
+
         return tEncode(string);
     }
 

@@ -8,8 +8,7 @@ public class Client {
     public static void main(String[] args) {
         Command command = new LightOnCommand(new Light());
         CommandModeControl control = new CommandModeControl();
-       control.setCommand(1, command, command);
+        control.setCommand(1, command, command);
         control.onButton(1);
-
     }
 }

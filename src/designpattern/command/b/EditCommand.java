@@ -32,17 +32,3 @@ class OpenCommand  implements Command {
 
 }
 
-class CreateCommand  implements Command {
-    private BoardScreen  BoardScreen;
-
-    @Override
-    public void excute() {
-        BoardScreen.open();
-    }
-
-    public CreateCommand(BoardScreen boardScreen) {
-        this.BoardScreen = boardScreen;
-    }
-
-}
-

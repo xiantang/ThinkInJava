@@ -1,5 +1,6 @@
 package designpattern.command.b;
 
+
 import java.util.ArrayList;
 
 /**
@@ -33,15 +34,15 @@ class MenuItem {
     }
 }
 public class WinMenu implements Menu {
-    private ArrayList<MenuItem> gj19MenuItemsList = new ArrayList<MenuItem>();
+    private ArrayList<MenuItem> menuItemsList = new ArrayList<MenuItem>();
     @Override
     public void click(int slot) {
-        gj19MenuItemsList.get(slot).click();
+        menuItemsList.get(slot).click();
     }
 
 
     public void addMenuItem(MenuItem item) {
 
-        gj19MenuItemsList.add(item);
+        menuItemsList.add(item);
     }
 }

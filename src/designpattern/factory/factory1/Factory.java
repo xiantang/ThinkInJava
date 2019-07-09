@@ -1,4 +1,4 @@
-package designpattern.factory1;
+package designpattern.factory.factory1;
 
 /**
  * @Author: xiantang

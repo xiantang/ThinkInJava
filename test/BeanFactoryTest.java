@@ -1,3 +1,4 @@
+import hello.HelloWorldService;
 import org.junit.Test;
 import tinyspring.BeanDefinition;
 import tinyspring.ResourceLoader;
@@ -15,7 +16,7 @@ public class BeanFactoryTest {
 //        BeanFactory beanFactory = new AutowireCapableBeanFactory();
 //        // 注入bean
 //        BeanDefinition beanDefinition = new BeanDefinition();
-//        beanDefinition.setBeanClassName("HelloWorldService");
+//        beanDefinition.setBeanClassName("hello.HelloWorldService");
 //
 //        PropertyValues propertyValues = new PropertyValues();
 //        propertyValues.addPropertyValue(new PropertyValue("text", "helloWorld"));
@@ -25,7 +26,7 @@ public class BeanFactoryTest {
 //
 //
 //        // 获取bean
-//        HelloWorldService helloWorldService = (HelloWorldService) beanFactory.getBean("helloWorldService");
+//        hello.HelloWorldService helloWorldService = (hello.HelloWorldService) beanFactory.getBean("helloWorldService");
 //        helloWorldService.helloWorld();
         // 1.读取配置
         XmlBeanDefinitionReader xmlBeanDefinitionReader = new XmlBeanDefinitionReader(new ResourceLoader());

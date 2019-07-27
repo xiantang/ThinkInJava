@@ -13,7 +13,7 @@ public interface BeanFactory {
 
 
 
-    void registerBeanDefinition(String name, BeanDefinition beanDefinition) throws Exception;
+
 
 
 }

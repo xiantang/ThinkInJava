@@ -1,6 +1,7 @@
 package tinyspring.factory;
 
 import tinyspring.BeanDefinition;
+import tinyspring.aop.AspectJExpressionPointcutAdvisor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -30,10 +31,8 @@ public abstract class AbstractBeanFactory implements BeanFactory{
         return bean;
     }
 
-    @Override
+
     public void registerBeanDefinition(String name, BeanDefinition beanDefinition) throws Exception {
-//        Object bean = doCreateBean(beanDefinition);
-//        beanDefinition.setBean(bean);
         // 为了解决循环依赖
         beanDefinitionMap.put(name, beanDefinition);
         beanDefinitionNames.add(name);
@@ -57,4 +56,13 @@ public abstract class AbstractBeanFactory implements BeanFactory{
     }
 
 
+    public List getBeansForType(Class  type) throws Exception {
+        List beans = new ArrayList<Object>();
+        for (String beanDefinitionName : beanDefinitionNames) {
+            if (type.isAssignableFrom(beanDefinitionMap.get(beanDefinitionName).getBeanClass())) {
+                beans.add(getBean(beanDefinitionName));
+            }
+        }
+        return beans;
+    }
 }

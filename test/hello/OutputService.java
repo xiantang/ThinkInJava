@@ -1,3 +1,6 @@
+package hello;
+
+import hello.HelloWorldService;
 import org.junit.Assert;
 
 public class OutputService {

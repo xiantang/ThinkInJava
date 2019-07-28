@@ -10,6 +10,10 @@ import java.util.Vector;
 import java.util.regex.Pattern;
 
 public class Test {
+
+    public void tell() {
+        System.out.println("aaaa");
+    }
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         // 会调用静态代码块
 //        Class.forName("JVM.classloading.SuperClass");
@@ -30,14 +34,13 @@ public class Test {
         // 实际上new Driver new出来的是com.mysql.什么什么的Driver
         // 数据库的信息你写在配置文件里面
         // 运行时的实例就是数据库产商实现的东西
-        new com.mysql.jdbc.Driver();
-        String url = "jdbc:mysql://111.231.255.225:3306/db_example";
-        Connection connection = DriverManager.getConnection(url, "root", "123456zjd");
-
-        java.util.Enumeration<java.sql.Driver> driverEnumeration = DriverManager.getDrivers();
-        java.sql.Driver driver1 = driverEnumeration.nextElement();
-
-        System.out.println(driver1.getMajorVersion());
+//        String url = "jdbc:mysql://111.231.255.225:3306/db_example";
+//        Connection connection = DriverManager.getConnection(url, "root", "123456zjd");
+//
+//        java.util.Enumeration<java.sql.Driver> driverEnumeration = DriverManager.getDrivers();
+//        java.sql.Driver driver1 = driverEnumeration.nextElement();
+//
+//        System.out.println(driver1.getMajorVersion());
 
     }
 

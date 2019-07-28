@@ -4,6 +4,7 @@ public class No20 {
     /** need to reveiw
      * 输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字
      */
+    // TODO 需要复习 这个递归用的很好
     public static void main(String[] args) {
         int[][] a=create(5,5);
         print(a);

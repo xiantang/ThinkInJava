@@ -7,6 +7,7 @@ public class No8 {
      * 的一个旋转，输出旋转数组的最小元素。例如数组
      * {3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为 1。
      */
+    // TODO 需要复习 这道题做的很巧妙
     public static void main(String[] args) {
         int[] arr={3,4,5,1,2};
         System.out.println(findMin(arr));

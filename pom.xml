@@ -77,6 +77,11 @@
             <artifactId>aopalliance</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
         <!--jstl标签依赖的jar包end -->
 
 

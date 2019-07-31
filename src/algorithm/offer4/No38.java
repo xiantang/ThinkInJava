@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.offer4;
 
 public class No38 {
     /**

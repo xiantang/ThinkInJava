@@ -1,8 +1,12 @@
 package algorithm.offer1;
 
 public class Node {
-    String data;
-    Node next;
+    public String data;
+    public Node next;
+
+    public Node() {
+    }
+
     public Node(String data) {
         super();
         this.data = data;

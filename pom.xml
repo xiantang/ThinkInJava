@@ -72,6 +72,11 @@
             <version>1.8.9</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+            <version>1.0</version>
+        </dependency>
         <!--jstl标签依赖的jar包end -->
 
 

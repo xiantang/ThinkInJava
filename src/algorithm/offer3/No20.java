@@ -7,8 +7,8 @@ public class No20 {
     // TODO 需要复习 这个递归用的很好
     public static void main(String[] args) {
         int[][] a=create(5,5);
-        print(a);
-        clockWisePrint(a,0,4);
+//        print(a);
+        clockWisePrint1(a,0,4);
     }
 
     private static void clockWisePrint(int[][] a, int i, int j) {
@@ -44,6 +44,37 @@ public class No20 {
 
 
 
+    }
+
+    private static void clockWisePrint1(int[][] a, int i, int j) {
+        if (i == j) {
+            System.out.print(a[i][j]+ " ");
+            return;
+        }
+        if (i > j) {
+            return;
+        }
+        int x = i;
+        while (x <= j) {
+            System.out.print(a[i][x] + " ");
+            x++;
+        }
+        int y = i + 1;
+        while (y <= j) {
+            System.out.print(a[y][j] + " ");
+            y++;
+        }
+        x = j-1;
+        while (x >= i) {
+            System.out.print(a[j][x] + " ");
+            x--;
+        }
+        y = j - 1;
+        while (y >= i+1) {
+            System.out.print(a[y][i] + " ");
+            y--;
+        }
+        clockWisePrint1(a, i + 1, j - 1);
     }
 
     private static void print(int[][] a) {

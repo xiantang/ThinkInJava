@@ -14,7 +14,7 @@ public class No22 {
     public static void main(String[] args) {
         Integer[] pushOrder={1,2,3,4,5};
         Integer[] popOrder={4,5,3,2,1};
-        System.out.println(isRight(pushOrder,popOrder,5));
+        System.out.println(isRight1(pushOrder,popOrder,5));
     }
 
     private static boolean isRight(Integer[] pushOrder, Integer[] popOrder, int n) {
@@ -40,5 +40,26 @@ public class No22 {
         }
         return true;
 
+    }
+
+    private static boolean isRight1(Integer[] pushOrder, Integer[] popOrder, int n) {
+        Stack<Integer> stack = new Stack<>();
+        int count = 0;
+        for (int i = 0; i < popOrder.length; i++) {
+            if (!stack.empty() && stack.peek().intValue() == popOrder[i]) {
+                stack.pop();
+            } else {
+                do {
+                    stack.push(pushOrder[count++]);
+                } while ((int) stack.peek() != popOrder[i] && count != pushOrder.length);
+                if ((int) stack.peek() == popOrder[i]) {
+                    stack.pop();
+                } else {
+                    return false;
+                }
+
+            }
+        }
+        return true;
     }
 }

@@ -25,14 +25,7 @@
             </plugin>
         </plugins>
     </build>
-    <modules>
-        <module>algorithm</module>
-        <module>concurrency</module>
-        <module>designpattern</module>
-        <module>jvm</module>
-        <module>nio</module>
-        <module>tinyspring</module>
-    </modules>
+
     <dependencies>
         <!-- servlet依赖的jar包start -->
         <dependency>

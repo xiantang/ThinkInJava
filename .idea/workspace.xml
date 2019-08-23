@@ -11,619 +11,179 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="814a65f6-ac40-4028-b713-2f15452d6d49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadSafety/CountingFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadSafety/LazyInitRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadSafety/StatelessFactorizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NIO/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NIO/MonitoringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NIO/OOMObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NIO/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/ConstClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/DynamicDispatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/FieldResolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/NotInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/Overload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/StaticDispatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/StaticResolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvm/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/BoardGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Chess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Activity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Burrito.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/EnumClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Enums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Explore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/OzWith.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/RandomTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Reflection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Shrubbery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Sigin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/SpaceShip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Spiciness.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/TrafficLight$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/EnumClass/TrafficLight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/FatherClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/PrimitiveOverloading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/SonClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/SprinklerSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/ToolTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/WaterSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/AtUnitExample1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/DBTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/ExtractInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/Multiplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/PasswordUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/Testable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/UseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/UseCaseTracker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/Constraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/SQLInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/SQLString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/SQLType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/TableColum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/TableCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/annotations/databases/Uniqueness.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Beetle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/BlankFinal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/CADSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/FinalArguments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/FinalData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/FinalOverridingIllusion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Gizmo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/OverridingPrivate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/OverridingPrivate2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Poppet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/Value.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c06/WithFinals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Actor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Amphibian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Bart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Characteristic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Derived.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Description.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Frog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Glypy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/HappyActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Hide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Homer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Instrument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/LivingCreature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Milhouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Music.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Note.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Orc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Percussion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/PolyConstructors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/PrivateOverride.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/RandomShapeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/RoundGlyph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/SadActor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Stage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Transmogrify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Villain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c07/Wind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Callbacks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Callee2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Callee2$Closure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Callee2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Calleel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Caller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Contents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Destination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/Incrementable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c08/MyIncrement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/AssociativeArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Candy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Cookie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/FancyToy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/GFG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Geek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Gerbil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Gum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Hamster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/HasBatterises.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Pet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/PetCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Pug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Rodent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Shapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Shoot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/SweetShop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Toy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/ToyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c10/Waterproof.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/ArraySearching.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2$RandBooleanGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2$RandCharGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2$RandIntGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2$RandStringGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Arrays2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/BooleanGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/CharGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collection1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collections2$RandStringPairGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collections2$StringGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collections2$StringPairGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Collections2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/ComType$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/ComType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/CompTypeComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/ComparingArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/CountryCapitals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/FillTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Groundhog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Hamster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/InfiniteRecursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/IntGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/MapGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Mouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/MouseList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/MouseTrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Prediction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/PrintingContainers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Set1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/Set2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/SimpleCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/SortedSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/SpringDetector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/StackL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c11/WorksAnyway.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/CanonicalMapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/CountedString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/FailFast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/Individual.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/Key.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/MapEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/MyMain$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/MyMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/ReadOnly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/References.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/SimpleHashTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/Value.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/c12/VeryBig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/xiantang/mypackage/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/xiantang/mypackage/AA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/xiantang/mypackage/DD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/com/xiantang/mypackage/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ADeamon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Accessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Atomicity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AttemptLocking$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AttemptLocking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AyomicIntegerTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/AyomicIntegerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/BetterWait.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Blocked2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Blocked3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/BlockedMutex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Blocker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/BusBoy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Busy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Busy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CacheThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CallableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CaptureUncaugthException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Chef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CircularSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Count.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/CriticalSection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Daemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DaemonFromFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DaemonThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DaemonThreadPooExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DeamonSpaw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/DualSynch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Entrance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/EvenChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/EvenGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ExceptionThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ExceptionThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ExpicitPairManager1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ExpicitPairManager2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/FC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/FibonaciiC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/HandlerThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/IOBlocked.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerRunnable1$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerRunnable1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerThread1$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerThread2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InnerThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/IntGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Interrupting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/InterruptingIdiom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Joinning.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/LIftOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/LiftOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Meal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MultiLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MultiLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MyField.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MyThread$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/MyUncaughtExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/NeedCleanUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/OrnametalGarden.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Pair$PairValuesNotEqualException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairManager1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairManager2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/PairManipulator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Restaurant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/RunDD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/RunGG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SerialNumberChecker$SerialChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SerialNumberChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SerialNumberGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SimpleDaemons.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SimplePriorities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SimpleThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SingleThreadExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SleepBlocked.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SleepTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Sleeper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Sleeper1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SyncCodeBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SyncObject$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SyncObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SynchronizedBlocked$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SynchronizedBlocked.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/SynchronizedEvenGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Task2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/TaskWithResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Tasssk$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Tasssk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/Test15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadLocalVariableHolder$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadLocalVariableHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadMethod$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadMethod$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/ThreadVariations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/WaitPerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/WaxOMatic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/WaxOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/WaxOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/DDD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/MyAppThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/MyThreadFactory$1Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/MyThreadFactory$A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/MyThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/factory/ThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/lengthOfLongestSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/BoundedExecutor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/BoundedExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/WaxMatic2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/WaxOff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/concurrency/waxmatic2/WaxOn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Americano.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/BasicGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Breve.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Cappuccino.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Coffee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/CoffeeGenerator$CoffeeIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/CoffeeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/CountedObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Derived1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/ErasedTypeEquivalence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/ExplicitTypeSecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Generator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Generators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/GenericBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/GenericMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/GenericVarargs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/HasF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Holder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Leet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/LinkedStack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/LinkedStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Manipulator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/Mocha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/New.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/RandomList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/ThreeTuple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/generics/TwoTuple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/hape/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/hape/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/hape/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/hape/Traiangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Aline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/BasicFileOutPut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Blip1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Blip2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/BufferedInputFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/DirFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/DirList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/DirList2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/DirList2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Directory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Directory$TreeInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Directory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/FileOutputShortcut.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/FormattedMemoryInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/FreezeAliem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/House.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/MemoryInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/StoringAndRecoveringData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/ThawAllen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/Worm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/io/X.file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoardGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chess.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/Burrito.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/EnumClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/Enums.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/OzWith.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/RandomTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/Reflection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/SpaceShip.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnumClass/TrafficLight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FatherClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrimitiveOverloading.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SonClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SprinklerSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToolTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WaterSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/AtUnitExample1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/DBTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/ExtractInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/Multiplier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/PasswordUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/Testable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/UseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/UseCaseTracker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/databases/Constraints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/databases/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/databases/SQLInteger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/databases/SQLString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/databases/SQLType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/databases/TableColum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/databases/TableCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/annotations/databases/Uniqueness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/Beetle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/BlankFinal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/CADSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/FinalArguments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/FinalData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/FinalOverridingIllusion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/Gizmo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/Line.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/OverridingPrivate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/OverridingPrivate2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/Poppet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/Triangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/Value.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c06/WithFinals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Bart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Frog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Hide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Homer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Instrument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Milhouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Music.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Note.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Orc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/PolyConstructors.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/PrivateOverride.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Transmogrify.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Villain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c07/Wind.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c08/Callbacks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c08/Contents.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c08/Destination.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/AssociativeArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/GFG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Geek.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Gerbil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Hamster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Pet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/PetCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Pug.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Rodent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/Shapes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/SweetShop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c10/ToyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/ArraySearching.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Arrays2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/BooleanGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/CharGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Collection1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Collections2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/ComType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/CompTypeComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/ComparingArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/CountryCapitals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/FillTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Generator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Groundhog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Hamster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/InfiniteRecursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/IntGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/MapGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Mouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/MouseList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/MouseTrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Pair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Prediction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Printer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/PrintingContainers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Reverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Set1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/Set2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/SimpleCollection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/SortedSetDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/SpringDetector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/StackL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c11/WorksAnyway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c12/CanonicalMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c12/CountedString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c12/FailFast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c12/Individual.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c12/MapEntry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c12/MyMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c12/ReadOnly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c12/SimpleHashTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c12/VeryBig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiantang/mypackage/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiantang/mypackage/AA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiantang/mypackage/DD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xiantang/mypackage/MyClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/ADeamon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Accessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Atomicity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/AttemptLocking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/AyomicIntegerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/BlockedMutex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Blocker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Busy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/CacheThreadPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/CallableDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/CaptureUncaugthException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/CircularSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/CriticalSection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Daemon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/DaemonFromFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/DaemonThreadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/DaemonThreadPooExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/EvenChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/EvenGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/ExceptionThread1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/ExpicitPairManager1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/FibonaciiC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/IntGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Interrupting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/InterruptingIdiom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Joinning.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/LIftOff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/LiftOn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/MultiLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/MyField.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/OrnametalGarden.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Restaurant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/RunDD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SerialNumberGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SimpleDaemons.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SimplePriorities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SimpleThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SingleThreadExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SleepTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Sleeper1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SyncCodeBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SyncObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SynchronizedEvenGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Tasssk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Test15.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/ThreadVariations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/UseWait.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/WaxOMatic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/factory/DDD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/factory/MyAppThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/factory/MyThreadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/factory/ThreadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/lengthOfLongestSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/waxmatic2/BoundedExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/waxmatic2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/waxmatic2/WaxMatic2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/BasicGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Coffee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/CoffeeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/CountedObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Derived1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/ErasedTypeEquivalence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/ExplicitTypeSecification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Generator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Generators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/GenericBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/GenericMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/GenericVarargs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/HasF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Holder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Leet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/LinkedStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/Manipulator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/New.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/RandomList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/ThreeTuple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generics/TwoTuple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hape/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hape/Line.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hape/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hape/Traiangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/Aline.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/BasicFileOutPut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/Blip1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/BufferedInputFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/DirFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/DirList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/DirList2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/Directory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/FileOutputShortcut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/FormattedMemoryInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/FreezeAliem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/House.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/MemoryInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/StoringAndRecoveringData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/ThawAllen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/Worm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thinkinjava/Blips.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thinkinjava/Data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thinkinjava/JavaBook.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thinkinjava/io/X.file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thinkinjava/worm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyAppThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyAppThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyThreadFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyThreadFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyThreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyThreadFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/AtinucPseudoRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/AtinucPseudoRandom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/CasCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/CasCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/ConcurrentStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/ConcurrentStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/SimulatedCAS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/SimulatedCAS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock$Dispatcher$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock$Dispatcher$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock$Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock$Dispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock$Taxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock$Taxi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/DollarAmount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/DollarAmount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/InduceLockOrder$1Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/InduceLockOrder$1Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/InduceLockOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/InduceLockOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/InsufficientFundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/AvoidingLivenessHazards/InsufficientFundsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingBlocks/SafeVectorHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingBlocks/SafeVectorHelpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BaseBoundedBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BaseBoundedBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BoundedBuffer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BoundedBuffer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BoundedBuffer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BoundedBuffer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BoundedBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BoundedBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BufferEmptyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/BufferEmptyException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ConcurrentLinkedQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ConcurrentLinkedQueue$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ConcurrentLinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ConcurrentLinkedQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/CondictionBoundedBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/CondictionBoundedBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/GrumpyBoundedBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/GrumpyBoundedBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/LinkedQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/LinkedQueue$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/LinkedQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/OneShotLatch$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/OneShotLatch$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/OneShotLatch$Sync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/OneShotLatch$Sync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/OneShotLatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/OneShotLatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock$Sync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock$Sync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Semaphore$Sync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Semaphore$Sync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Semaphore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Semaphore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/SemaphoreOnLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/SemaphoreOnLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/SleepyBoundedBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/SleepyBoundedBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Test$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ThreadGate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/BuildingCustomSynchronizers/ThreadGate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/ExecutorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/ExecutorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/PrimeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/PrimeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/PrimeProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/PrimeProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/ReaderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/ReaderThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/CancellationAndShutdown/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/DelegatingVehicleTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/DelegatingVehicleTracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/ImprovedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/ImprovedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/ListHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/ListHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/MonitorVehicleTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/MonitorVehicleTracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/MutablePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/MutablePoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/NumberRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/NumberRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/PersonSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/PersonSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/PrivateLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/PrivateLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/PublishingVehicleTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/PublishingVehicleTracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/SafePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/SafePoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/VisualComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/VisualComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/Widget.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ComposingObjects/Widget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/DeadlockAvoidance$Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/DeadlockAvoidance$Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/DeadlockAvoidance$DollarAmount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/DeadlockAvoidance$DollarAmount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/DeadlockAvoidance$InsufficientFundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/DeadlockAvoidance$InsufficientFundsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/DeadlockAvoidance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/DeadlockAvoidance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/ReadWriteMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/ReadWriteMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/TimedLocking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ExplicitLocks/TimedLocking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/PerformanceAndScalability/AttributeStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/PerformanceAndScalability/AttributeStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/PerformanceAndScalability/ServerStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/PerformanceAndScalability/ServerStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/PerformanceAndScalability/StripedMap$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/PerformanceAndScalability/StripedMap$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/PerformanceAndScalability/StripedMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/PerformanceAndScalability/StripedMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/SingleThreadWebServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/SingleThreadWebServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/SingleThreadWebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/SingleThreadWebServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/TaskExcutionWebServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/TaskExcutionWebServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/TaskExcutionWebServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/TaskExcutionWebServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/ThradPerTaskExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TaskExecution/ThradPerTaskExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TheJavaMemoryModel/PossibleReordering$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TheJavaMemoryModel/PossibleReordering$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TheJavaMemoryModel/PossibleReordering$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TheJavaMemoryModel/PossibleReordering$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/TheJavaMemoryModel/PossibleReordering.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/TheJavaMemoryModel/PossibleReordering.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/ArrangementUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/ArrangementUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/BoundedHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/BoundedHashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/CountingFactorizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/CountingFactorizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/ExpensiveObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/ExpensiveObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/FileCrawler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/FileCrawler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/FileCrawler$Indexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/FileCrawler$Indexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/FileCrawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/FileCrawler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/LazyInitRace.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/LazyInitRace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/OneValueCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/OneValueCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/PermutationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/PermutationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/StatelessFactorizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/StatelessFactorizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/ThreeStooges.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/ThreeStooges.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/VolatileCachedFactorizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/VolatileCachedFactorizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NIO/LearnNIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NIO/LearnNIO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NIO/MultiPortEcho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NIO/MultiPortEcho.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/adopter/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/adopter/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/adopter/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/adopter/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/adopter/adopter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/adopter/adopter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/adopter/b/Adapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/adopter/b/Adapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/adopter/b/Encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/adopter/b/Encryption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/adopter/b/EncryptionAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/adopter/b/EncryptionAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/adopter/b/ThirdPartyEncryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/adopter/b/ThirdPartyEncryption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/builder/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/builder/Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/builder/BuilderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/builder/BuilderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/builder/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/builder/Computer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/builder/ComputerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/builder/ComputerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/composite/BranchCampu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/composite/BranchCampu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/composite/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/composite/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/composite/Composite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/composite/Composite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/composite/Headquarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/composite/Headquarter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/composite/Office.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/composite/Office.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/composite/TeachingPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/composite/TeachingPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Chocolate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Chocolate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Coffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Coffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Decaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Decaf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Decorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Decorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Drink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Drink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Milk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/coffee/Milk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/EncryptComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/EncryptComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/EncryptDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/EncryptDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/OriginalEncrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/OriginalEncrypt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/OtherAEncrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/OtherAEncrypt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/OtherBEncrypt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/decorator/encrypt/OtherBEncrypt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory/AirConditioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory/AirConditioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory/HaierAirConditioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory/HaierAirConditioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory/HaierFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory/HaierFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory/HaierTV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory/HaierTV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory/TCLAirConditioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory/TCLAirConditioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory/TCLFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory/TCLFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory/TCLTV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory/TCLTV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory/TV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory/TV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory1/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory1/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory1/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory1/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory1/MysqlConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory1/MysqlConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory1/MysqlFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory1/MysqlFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory1/MysqlStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory1/MysqlStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory1/OracleConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory1/OracleConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory1/OracleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory1/OracleFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory1/OracleStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory1/OracleStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/factory1/Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/factory1/Statement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/Emperor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/Emperor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/JInternalFrame1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/JInternalFrame1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/JInternalFrameDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/JInternalFrameDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/JInternalFrameDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/JInternalFrameDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/Pool$Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/Pool$Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/Pool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/Pool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/Singleton.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -634,6 +194,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ThinkInJava$Tree.ic" NAME="Tree Coverage Results" MODIFIED="1566034797865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>NIO.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/ThinkInJava$Test.ic" NAME="Test Coverage Results" MODIFIED="1556167704990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>JavaConcurrency.BuildingCustomSynchronizers.*</FILTER>
     </SUITE>
@@ -643,6 +206,9 @@
     <SUITE FILE_PATH="coverage/ThinkInJava$Client.ic" NAME="Client Coverage Results" MODIFIED="1553778415396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TaskExecution.*</FILTER>
     </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="15" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -663,71 +229,31 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.77907693">
+    <splitter split-orientation="horizontal" split-proportion="0.25528812">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/coffee/Decorator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#129#130#0" expanded="true" />
-                    <element signature="e#159#160#0" expanded="true" />
-                    <element signature="e#304#305#0" expanded="true" />
-                    <element signature="e#399#400#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/EncryptComponent.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="27" selection-end-line="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/OriginalEncrypt.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/EncryptDecorator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="14" lean-forward="true" selection-end-line="14" />
-                  <folding>
-                    <element signature="e#202#203#0" expanded="true" />
-                    <element signature="e#258#259#0" expanded="true" />
-                    <element signature="e#306#307#0" expanded="true" />
-                    <element signature="e#344#345#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/OtherAEncrypt.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+                <state relative-caret-position="722">
+                  <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
                   <folding>
                     <element signature="e#156#157#0" expanded="true" />
-                    <element signature="e#173#174#0" expanded="true" />
+                    <element signature="e#195#196#0" expanded="true" />
                     <element signature="e#243#244#0" expanded="true" />
-                    <element signature="e#280#281#0" expanded="true" />
-                    <element signature="e#1146#1147#0" expanded="true" />
-                    <element signature="e#1185#1186#0" expanded="true" />
-                    <element signature="e#1233#1234#0" expanded="true" />
-                    <element signature="e#1289#1290#0" expanded="true" />
+                    <element signature="e#299#300#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/NIO/MonitoringTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -737,12 +263,12 @@
             <entry file="file://$PROJECT_DIR$/src/designpattern/facade/CPU.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="190">
-                  <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+                  <caret line="10" column="36" selection-end-line="16" />
                   <folding>
                     <element signature="e#135#136#0" expanded="true" />
                     <element signature="e#169#170#0" expanded="true" />
                     <element signature="e#194#195#0" expanded="true" />
-                    <element signature="e#230#231#0" expanded="true" />
+                    <element signature="e#240#241#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -752,10 +278,31 @@
             <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Memory.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="247">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                   <folding>
                     <element signature="e#208#209#0" expanded="true" />
-                    <element signature="e#244#245#0" expanded="true" />
+                    <element signature="e#259#260#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/NIO/LearnNIO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/NIO/Tree.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1178">
+                  <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -764,72 +311,34 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Disk.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+                <state relative-caret-position="38">
+                  <caret line="2" column="13" selection-end-line="14" />
                   <folding>
                     <element signature="e#198#199#0" expanded="true" />
-                    <element signature="e#234#235#0" expanded="true" />
+                    <element signature="e#247#248#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Host.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+                <state relative-caret-position="209">
+                  <caret line="13" column="36" selection-end-line="19" />
+                  <folding>
+                    <element signature="e#225#226#0" expanded="true" />
+                    <element signature="e#271#272#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="uml://JAVA/designpattern.decorator.encrypt">
-              <provider selected="true" editor-type-id="UmlEditorProvider">
-                <state>
-                  <ID>JAVA</ID>
-                  <OriginalElement>designpattern.decorator.encrypt</OriginalElement>
-                  <nodes>
-                    <node x="248.0" y="208.0">designpattern.decorator.encrypt.OtherAEncrypt</node>
-                    <node x="352.5" y="104.0">designpattern.decorator.encrypt.OriginalEncrypt</node>
-                    <node x="0.0" y="219.5">designpattern.decorator.encrypt.OtherBEncrypt</node>
-                    <node x="248.0" y="0.0">designpattern.decorator.encrypt.EncryptComponent</node>
-                    <node x="143.5" y="104.0">designpattern.decorator.encrypt.EncryptDecorator</node>
-                  </nodes>
-                  <notes />
-                  <edges>
-                    <edge source="designpattern.decorator.encrypt.OtherBEncrypt" target="designpattern.decorator.encrypt.EncryptDecorator">
-                      <point x="0.0" y="-38.5" />
-                      <point x="114.0" y="183.0" />
-                      <point x="190.75" y="183.0" />
-                      <point x="-47.25" y="27.0" />
-                    </edge>
-                    <edge source="designpattern.decorator.encrypt.OriginalEncrypt" target="designpattern.decorator.encrypt.EncryptComponent">
-                      <point x="0.0" y="-27.0" />
-                      <point x="447.0" y="79.0" />
-                      <point x="389.75" y="79.0" />
-                      <point x="47.25" y="27.0" />
-                    </edge>
-                    <edge source="designpattern.decorator.encrypt.EncryptDecorator" target="designpattern.decorator.encrypt.EncryptComponent">
-                      <point x="0.0" y="-27.0" />
-                      <point x="238.0" y="79.0" />
-                      <point x="295.25" y="79.0" />
-                      <point x="-47.25" y="27.0" />
-                    </edge>
-                    <edge source="designpattern.decorator.encrypt.OtherAEncrypt" target="designpattern.decorator.encrypt.EncryptDecorator">
-                      <point x="0.0" y="-50.0" />
-                      <point x="362.0" y="183.0" />
-                      <point x="285.25" y="183.0" />
-                      <point x="47.25" y="27.0" />
-                    </edge>
-                  </edges>
-                  <settings layout="Hierarchic Group" zoom="1.0" x="136.1844262295082" y="26.54303278688525" />
-                  <SelectedNodes />
-                  <Categories>
-                    <Category>Methods</Category>
-                  </Categories>
-                  <SCOPE>All</SCOPE>
-                  <VISIBILITY>private</VISIBILITY>
+            <entry file="file://$PROJECT_DIR$/src/designpattern/facade/ComputerFaca.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="16" column="18" selection-end-line="22" />
                 </state>
               </provider>
             </entry>
@@ -839,34 +348,113 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/builder/Computer.java">
+            <entry file="file://$PROJECT_DIR$/src/jvm/NotInitialization.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+                <state relative-caret-position="57">
+                  <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Composite.java">
+            <entry file="file://$PROJECT_DIR$/src/jvm/FieldResolution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                <state relative-caret-position="380">
+                  <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#442#443#0" expanded="true" />
+                    <element signature="e#483#484#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jvm/Test.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jvm/StaticResolution.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jvm/StaticDispatch.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="361">
+                  <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#219#220#0" expanded="true" />
+                    <element signature="e#267#268#0" expanded="true" />
+                    <element signature="e#302#303#0" expanded="true" />
+                    <element signature="e#356#357#0" expanded="true" />
+                    <element signature="e#393#394#0" expanded="true" />
+                    <element signature="e#442#443#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jvm/Overload.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                  <folding>
+                    <element signature="e#81#82#0" expanded="true" />
+                    <element signature="e#131#132#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Headquarter.java">
+            <entry file="file://$PROJECT_DIR$/src/jvm/DynamicDispatch.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+                <state relative-caret-position="90">
+                  <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#205#206#0" expanded="true" />
+                    <element signature="e#249#250#0" expanded="true" />
+                    <element signature="e#378#379#0" expanded="true" />
+                    <element signature="e#422#423#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/jvm/ConstClass.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/Executors.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="874">
+                  <caret line="87" column="33" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/NIO/MultiPortEcho.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="399">
+                  <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
@@ -882,17 +470,13 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Singleton" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>values</find>
-      <find>@Test</find>
-      <find>Thread[pool-1-thread-1,1,main]</find>
-      <find>countDown</find>
       <find>Futur</find>
       <find>callab</find>
       <find>checkCount</find>
@@ -919,9 +503,15 @@
       <find>servlet</find>
       <find>name</find>
       <find>/</find>
+      <find>）</find>
+      <find>，</find>
+      <find>SubClass</find>
+      <find>；</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>,</replace>
+      <replace>;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -930,23 +520,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designpattern/TV.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/factory/TV.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/factory1/Connection.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/factory1/Statement.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/factory1/MysqlConnection.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/factory1/MysqlStatement.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/factory1/Factory.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/factory1/MysqlFactory.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/factory1/OracleStatement.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/factory1/OracleFactory.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/builder/Computer.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/builder/Builder.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/builder/ComputerBuilder.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/builder/BuilderController.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/singleton/Pool.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/singleton/Client.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/singleton/JInternalFrameDemo.java" />
         <option value="$PROJECT_DIR$/src/designpattern/singleton/JInternalFrame1.java" />
         <option value="$PROJECT_DIR$/src/designpattern/singleton/Emperor.java" />
         <option value="$PROJECT_DIR$/src/designpattern/singleton/Singleton.java" />
@@ -979,8 +552,25 @@
         <option value="$PROJECT_DIR$/src/designpattern/decorator/encrypt/OriginalEncrypt.java" />
         <option value="$PROJECT_DIR$/src/designpattern/facade/CPU.java" />
         <option value="$PROJECT_DIR$/src/designpattern/facade/Memory.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/facade/Disk.java" />
         <option value="$PROJECT_DIR$/src/designpattern/facade/Host.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/facade/ComputerFaca.java" />
+        <option value="$PROJECT_DIR$/src/designpattern/facade/Disk.java" />
+        <option value="$PROJECT_DIR$/src/readandshow.txt" />
+        <option value="$PROJECT_DIR$/src/NIO/Tree.java" />
+        <option value="$PROJECT_DIR$/src/NIO/OOM.java" />
+        <option value="$PROJECT_DIR$/src/NIO/MonitoringTest.java" />
+        <option value="$PROJECT_DIR$/src/NIO/OOMObject.java" />
+        <option value="$PROJECT_DIR$/src/NIO/DeadLock.java" />
+        <option value="$PROJECT_DIR$/src/jvm/SuperClass.java" />
+        <option value="$PROJECT_DIR$/src/jvm/SubClass.java" />
+        <option value="$PROJECT_DIR$/src/jvm/ConstClass.java" />
+        <option value="$PROJECT_DIR$/src/jvm/NotInitialization.java" />
+        <option value="$PROJECT_DIR$/src/jvm/FieldResolution.java" />
+        <option value="$PROJECT_DIR$/src/jvm/Test.java" />
+        <option value="$PROJECT_DIR$/src/jvm/StaticResolution.java" />
+        <option value="$PROJECT_DIR$/src/jvm/StaticDispatch.java" />
+        <option value="$PROJECT_DIR$/src/jvm/Overload.java" />
+        <option value="$PROJECT_DIR$/src/jvm/DynamicDispatch.java" />
       </list>
     </option>
   </component>
@@ -1002,17 +592,19 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="475" />
-    <option name="y" value="50" />
-    <option name="width" value="1722" />
-    <option name="height" value="944" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1035,14 +627,13 @@
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaConcurrency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaConcurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -1053,7 +644,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1064,7 +654,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dd/project/ThinkingInJava/src/c07/Hide.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556977965860" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566469598325" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -1074,22 +664,22 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20542635" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Project\ThinkInJava\src" />
-      <recent name="E:\Project\ThinkInJava" />
-      <recent name="E:\Project\ThinkInJava\src\source" />
-      <recent name="E:\Project\ThinkInJava\src\NIO" />
-      <recent name="$PROJECT_DIR$/src/think" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="designpattern.singleton" />
       <recent name="JavaConcurrency.BuildingCustomSynchronizers" />
       <recent name="JavaConcurrency.ApplyingThreadPools" />
       <recent name="ComposingObjects" />
       <recent name="concurrency.factory" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\ThinkInJava\src" />
+      <recent name="E:\Project\ThinkInJava" />
+      <recent name="E:\Project\ThinkInJava\src\source" />
+      <recent name="E:\Project\ThinkInJava\src\NIO" />
+      <recent name="$PROJECT_DIR$/src/think" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1104,7 +694,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OtherAEncrypt">
+  <component name="RunManager" selected="Application.DynamicDispatch">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="JavaBook" />
       <working_directory value="$PROJECT_DIR$" />
@@ -1124,12 +714,12 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="Chocolate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.decorator.coffee.Chocolate" />
+    <configuration name="DynamicDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.DynamicDispatch" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.decorator.coffee.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1137,12 +727,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.composite.Client" />
+    <configuration name="Overload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.Overload" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.composite.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1150,12 +740,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.singleton.Client" />
+    <configuration name="StaticDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.StaticDispatch" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.singleton.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1163,12 +753,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OtherAEncrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.decorator.encrypt.OtherAEncrypt" />
+    <configuration name="StaticResolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.StaticResolution" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.decorator.encrypt.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1176,12 +766,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.singleton.Singleton" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.Test" />
       <module name="ThinkingInJava" />
+      <option name="VM_PARAMETERS" value="-verbose:gc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designpattern.singleton.*" />
+          <option name="PATTERN" value="jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1371,20 +962,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Singleton" />
-      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Tomcat Server.xiantang" />
-      <item itemvalue="Application.Chocolate" />
-      <item itemvalue="Application.OtherAEncrypt" />
+      <item itemvalue="Application.StaticResolution" />
+      <item itemvalue="Application.StaticDispatch" />
+      <item itemvalue="Application.Overload" />
+      <item itemvalue="Application.DynamicDispatch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OtherAEncrypt" />
-        <item itemvalue="Application.Chocolate" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Singleton" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.DynamicDispatch" />
+        <item itemvalue="Application.Overload" />
+        <item itemvalue="Application.StaticDispatch" />
+        <item itemvalue="Application.StaticResolution" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1465,7 +1056,12 @@
       <workItem from="1556507609893" duration="1547000" />
       <workItem from="1556604830755" duration="1700000" />
       <workItem from="1556891242998" duration="77000" />
-      <workItem from="1556973537898" duration="4188000" />
+      <workItem from="1556973537898" duration="5877000" />
+      <workItem from="1566034324611" duration="10268000" />
+      <workItem from="1566213860164" duration="8000" />
+      <workItem from="1566307547163" duration="6308000" />
+      <workItem from="1566360344507" duration="1674000" />
+      <workItem from="1566397386925" duration="7020000" />
     </task>
     <servers />
   </component>
@@ -1487,7 +1083,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380261000" />
+    <option name="totallyTimeSpent" value="407228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1499,10 +1095,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="83" width="1722" height="944" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49701494" visible="true" weight="0.29422382" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49701494" visible="true" weight="0.19722815" />
       <window_info id="Structure" order="1" sideWeight="0.50298506" side_tool="true" weight="0.36492538" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1512,15 +1107,15 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4935484" weight="0.32682925" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.65831554" visible="true" weight="0.17283951" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47654584" weight="0.40628386" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6556503" visible="true" weight="0.40238613" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47441363" weight="0.40455532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49892473" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49944875" weight="0.32827735" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.34168443" side_tool="true" weight="0.45287108" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.34434968" side_tool="true" visible="true" weight="0.40238613" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.44136462" weight="0.32098764" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32896462" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -1661,6 +1256,30 @@
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NIO/Tree.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/OtherAEncrypt.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/NIO/MonitoringTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jvm/NotInitialization.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/designpattern/singleton/Singleton.java</url>
           <line>6</line>
@@ -1675,325 +1294,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/OracleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/OracleStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/MysqlStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/factory1/Statement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/builder/Builder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/designpattern.singleton">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>designpattern.singleton</OriginalElement>
-          <nodes>
-            <node x="268.0" y="0.0">designpattern.singleton.JInternalFrameDemo</node>
-            <node x="0.0" y="359.0">designpattern.singleton.JInternalFrame1</node>
-            <node x="0.0" y="0.0">designpattern.singleton.Emperor</node>
-            <node x="0.0" y="214.0">designpattern.singleton.Pool</node>
-            <node x="0.0" y="481.0">designpattern.singleton.Client</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="177.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/Pool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/JInternalFrameDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/Emperor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/JInternalFrame1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/builder/ComputerBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/builder/BuilderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/singleton/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/designpattern.adopter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>designpattern.adopter</OriginalElement>
-          <nodes>
-            <node x="79.75" y="103.0">designpattern.adopter.adopter</node>
-            <node x="0.0" y="0.0">designpattern.adopter.Cat</node>
-            <node x="167.0" y="0.0">designpattern.adopter.Dog</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="designpattern.adopter.adopter" target="designpattern.adopter.Dog">
-              <point x="36.75" y="-61.5" />
-              <point x="190.0" y="78.0" />
-              <point x="233.0" y="78.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="designpattern.adopter.adopter" target="designpattern.adopter.Cat">
-              <point x="-36.75" y="-61.5" />
-              <point x="116.5" y="78.0" />
-              <point x="73.5" y="78.0" />
-              <point x="0.0" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-60.0" y="-82.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/adopter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/Encryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Download/singleton/Client.java" />
-    <entry file="file://D:/Download/singleton/LoadBalancer.java" />
-    <entry file="uml://JAVA/designpattern.adopter.b">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>designpattern.adopter.b</OriginalElement>
-          <nodes>
-            <node x="262.5" y="126.0">designpattern.adopter.b.EncryptionAdapter</node>
-            <node x="50.5" y="138.0">designpattern.adopter.b.Adapter</node>
-            <node x="224.0" y="0.0">designpattern.adopter.b.Encryption</node>
-            <node x="0.0" y="0.0">designpattern.adopter.b.ThirdPartyEncryption</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="designpattern.adopter.b.EncryptionAdapter" target="designpattern.adopter.b.Encryption">
-              <point x="0.0" y="-50.0" />
-              <point x="48.0" y="38.0" />
-            </edge>
-            <edge source="designpattern.adopter.b.Adapter" target="designpattern.adopter.b.ThirdPartyEncryption">
-              <point x="-48.0" y="-38.0" />
-              <point x="0.0" y="38.0" />
-            </edge>
-            <edge source="designpattern.adopter.b.Adapter" target="designpattern.adopter.b.Encryption">
-              <point x="48.0" y="-38.0" />
-              <point x="194.5" y="101.0" />
-              <point x="272.0" y="101.0" />
-              <point x="-48.0" y="38.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8947368421052632" x="258.0" y="-105.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/designpattern.composite">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>designpattern.composite</OriginalElement>
-          <nodes>
-            <node x="0.0" y="317.0">designpattern.composite.Client</node>
-            <node x="233.0" y="149.0">designpattern.composite.TeachingPoint</node>
-            <node x="777.0" y="149.0">designpattern.composite.BranchCampu</node>
-            <node x="505.0" y="149.0">designpattern.composite.Headquarter</node>
-            <node x="388.5" y="0.0">designpattern.composite.Composite</node>
-            <node x="0.0" y="161.0">designpattern.composite.Office</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="designpattern.composite.TeachingPoint" target="designpattern.composite.Composite">
-              <point x="0.0" y="-61.5" />
-              <point x="359.0" y="129.0" />
-              <point x="468.375" y="129.0" />
-              <point x="-26.625" y="49.5" />
-            </edge>
-            <edge source="designpattern.composite.Office" target="designpattern.composite.Composite">
-              <point x="0.0" y="-49.5" />
-              <point x="106.5" y="119.0" />
-              <point x="415.125" y="119.0" />
-              <point x="-79.875" y="49.5" />
-            </edge>
-            <edge source="designpattern.composite.Headquarter" target="designpattern.composite.Composite">
-              <point x="0.0" y="-61.5" />
-              <point x="631.0" y="129.0" />
-              <point x="521.625" y="129.0" />
-              <point x="26.625" y="49.5" />
-            </edge>
-            <edge source="designpattern.composite.BranchCampu" target="designpattern.composite.Composite">
-              <point x="0.0" y="-61.5" />
-              <point x="903.0" y="119.0" />
-              <point x="574.875" y="119.0" />
-              <point x="79.875" y="49.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="49.0" />
-          <SelectedNodes>
-            <node>designpattern.composite.Office</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/EncryptionAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -2058,40 +1358,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/builder/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Composite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Headquarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator.java" />
     <entry file="file://$PROJECT_DIR$/src/designpattern/composite/TeachingPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -2165,7 +1432,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="151.5" y="96.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="97.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -2234,7 +1501,7 @@
               <point x="47.25" y="27.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="136.1844262295082" y="26.54303278688525" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="27.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -2254,13 +1521,72 @@
     <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/EncryptDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-end-line="14" />
+          <caret line="14" selection-end-line="14" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/designpattern.facade">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>designpattern.facade</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">designpattern.facade.Host</node>
+            <node x="327.0" y="170.0">designpattern.facade.ComputerFaca</node>
+            <node x="596.0" y="11.5">designpattern.facade.CPU</node>
+            <node x="191.99999999999997" y="11.5">designpattern.facade.Memory</node>
+            <node x="406.0" y="11.5">designpattern.facade.Disk</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="designpattern.facade.ComputerFaca" target="designpattern.facade.Host">
+              <point x="-41.25" y="-27.0" />
+              <point x="351.75" y="140.0" />
+              <point x="129.0" y="140.0" />
+              <point x="43.0" y="50.0" />
+            </edge>
+            <edge source="designpattern.facade.ComputerFaca" target="designpattern.facade.Memory">
+              <point x="-24.75" y="-27.0" />
+              <point x="368.25" y="130.0" />
+              <point x="240.49999999999997" y="130.0" />
+              <point x="-48.5" y="38.5" />
+            </edge>
+            <edge source="designpattern.facade.ComputerFaca" target="designpattern.facade.CPU">
+              <point x="57.75" y="-27.0" />
+              <point x="450.75" y="150.0" />
+              <point x="722.75" y="150.0" />
+              <point x="42.25" y="38.5" />
+            </edge>
+            <edge source="designpattern.facade.ComputerFaca" target="designpattern.facade.Disk">
+              <point x="24.75" y="-27.0" />
+              <point x="417.75" y="130.0" />
+              <point x="533.5" y="130.0" />
+              <point x="42.5" y="38.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="112.0" y="24.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/writesomebytes.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/readandshow.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -2271,19 +1597,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/OtherAEncrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="722">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding>
             <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2291,12 +1620,12 @@
     <entry file="file://$PROJECT_DIR$/src/designpattern/facade/CPU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <caret line="10" column="36" selection-end-line="16" />
           <folding>
             <element signature="e#135#136#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2304,29 +1633,224 @@
     <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Memory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/LearnNIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Disk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-end-line="14" />
           <folding>
             <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Host.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="36" selection-end-line="19" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/ComputerFaca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/MonitoringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/builder/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Headquarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="6" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/OOMObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/DeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/SuperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="87" column="33" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/MultiPortEcho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/ConstClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/NotInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/FieldResolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/StaticResolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/StaticDispatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/Overload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/DynamicDispatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,13 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="algorithm" />
+        <module name="designpattern" />
         <module name="JavaBook" />
+        <module name="jvm" />
+        <module name="nio" />
         <module name="ThinkingInJava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="algorithm" target="7" />
+      <module name="concurrency" target="8" />
+      <module name="designpattern" target="8" />
       <module name="JavaBook" target="1.5" />
+      <module name="jvm" target="8" />
+      <module name="nio" target="8" />
       <module name="ThinkingInJava" target="7" />
+      <module name="ThinkInJava" target="8" />
+      <module name="tinyspring" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,31 +5,355 @@
       <artifact name="unnamed" />
     </artifacts-to-build>
   </component>
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/ExecutorService.java" line="3" />
-    <bookmark url="file://$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ThreadGate.java" line="14" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="814a65f6-ac40-4028-b713-2f15452d6d49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NIO/DeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/MonitoringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/OOMObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NIO/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/ConstClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/DynamicDispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/FieldResolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/NotInitialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/Overload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/StaticDispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/StaticResolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/SubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/SuperClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jvm/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/FindLongestSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/ReseveLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/SearchRotateArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/TwoStackMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/TwoValuetoK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/bit/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer1/No3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer1/No4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer1/No5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer1/No6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer1/No7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer1/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer1/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/N11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/No10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/No13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/No14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/No15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/No15_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/No18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/No8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer2/No9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/ComplexListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer3/No32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer4/No35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer4/No37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer4/No38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer4/No39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer4/No41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer4/No42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/algorithm/offer4/No43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/concurrency/CyclicBarrierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/concurrency/Philosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/concurrency/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/concurrency/TaskExecution/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/concurrency/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadPool/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/bridge/AVIVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/bridge/AbstractVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/bridge/LinuxImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/bridge/MPEGVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/bridge/RMVBVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/bridge/UNIXImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/bridge/VideoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/bridge/WMVVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/bridge/WindowsImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/a/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/a/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/a/CommandModeControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/a/Control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/a/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/a/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/a/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/b/BoardScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/b/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/b/EditCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/b/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/command/b/WinMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/iterator/a/CakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/iterator/a/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/iterator/a/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/iterator/b/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/iterator/b/StudentCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/a/CurrenConditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/a/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/a/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/a/WeatherDataSt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/b/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/b/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/b/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/b/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/b/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/c/CurrentConditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/c/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/c/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/observer/c/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/proxy/a/AbstractLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/proxy/a/CurrentBusinessClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/proxy/a/LoggerProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/proxy/b/AbstractPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/proxy/b/PermissionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/proxy/b/RealPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/strategy/type/CaesarEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/strategy/type/EncraptMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/strategy/type/Encrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designpattern/src/designpattern/strategy/type/ModularEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/classloading/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/classloading/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/classloading/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/dynamicproxy/BookFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/dynamicproxy/BookFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/dynamicproxy/BookFacadeProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/gc/FinalizeEscapeGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/gc/MinorGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/gc/ReferenceCountingGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/gc/TestByteBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/oom/HeapOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/oom/JavaVMStackOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/oom/JavaVMStackSOF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/oom/MaxDirectMemoryOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm/src/jvm/oom/RuntimeConstantPoolOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nio/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/AdvisedSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/Advisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/AopProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/AspectJAwareAdvisorAutoProxyCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/AspectJExpressionPointcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/AspectJExpressionPointcutAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/BeanFactoryAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/BeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/ClassFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/JdkDynamicAopProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/MethodMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/Pointcut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/PointcutAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/ReflectiveMethodInvocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/TargetSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/aop/TimerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/context/AbstractApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/context/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/context/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/factory/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/factory/AutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/AbstractBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/BeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/BeanReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/PropertyValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/PropertyValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/ResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/UrlResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/src/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/test/ApplicationContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/test/AspectJExpressionPointcutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/test/BeanFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/test/JdkDynamicAopProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/test/hello/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/test/hello/HelloWorldServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/test/hello/OutputService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyspring/test/tinyioc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ThinkingInJava_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/ConstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/ConstClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/DynamicDispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/DynamicDispatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/FieldResolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/FieldResolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/NotInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/NotInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/Overload.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/Overload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/StaticDispatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/StaticDispatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/StaticResolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/StaticResolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/SubClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/SuperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designpattern/src/jvm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/jvm/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio/src/nio/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/nio/src/nio/DeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio/src/nio/MonitoringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nio/src/nio/MonitoringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio/src/nio/OOMObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/nio/src/nio/OOMObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio/src/nio/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/nio/src/nio/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/think/Blips.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/think/Data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/think/io/X.file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/think/worm.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ApplyingThreadPools/MyAppThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ApplyingThreadPools/MyAppThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ApplyingThreadPools/MyThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ApplyingThreadPools/MyThreadFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/AtinucPseudoRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/AtomicVariablesAndNonblockingSynchronization/AtinucPseudoRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/CasCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/AtomicVariablesAndNonblockingSynchronization/CasCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/ConcurrentStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/AtomicVariablesAndNonblockingSynchronization/ConcurrentStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/AtomicVariablesAndNonblockingSynchronization/SimulatedCAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/AtomicVariablesAndNonblockingSynchronization/SimulatedCAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/AvoidingLivenessHazards/CooperatingNoDeadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/AvoidingLivenessHazards/CooperatingNoDeadlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/AvoidingLivenessHazards/InduceLockOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/AvoidingLivenessHazards/InduceLockOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingBlocks/SafeVectorHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingBlocks/SafeVectorHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/BaseBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/BaseBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/BoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/BoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/BufferEmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/BufferEmptyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ConcurrentLinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/ConcurrentLinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/CondictionBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/CondictionBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/GrumpyBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/GrumpyBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/OneShotLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/OneShotLatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ReentranLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/ReentranLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/Semaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/SemaphoreOnLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/SemaphoreOnLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/SleepyBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/SleepyBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/BuildingCustomSynchronizers/ThreadGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/BuildingCustomSynchronizers/ThreadGate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/ExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/CancellationAndShutdown/ExecutorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/PrimeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/CancellationAndShutdown/PrimeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/PrimeProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/CancellationAndShutdown/PrimeProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/ReaderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/CancellationAndShutdown/ReaderThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/CancellationAndShutdown/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/CancellationAndShutdown/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/DelegatingVehicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/DelegatingVehicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/ImprovedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/ImprovedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/ListHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/ListHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/MonitorVehicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/MonitorVehicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/NumberRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/NumberRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/PersonSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/PersonSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/PrivateLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/PrivateLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/PublishingVehicleTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/PublishingVehicleTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ComposingObjects/VisualComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ComposingObjects/VisualComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ExplicitLocks/DeadlockAvoidance.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ExplicitLocks/DeadlockAvoidance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ExplicitLocks/ReadWriteMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ExplicitLocks/ReadWriteMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ExplicitLocks/TimedLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ExplicitLocks/TimedLocking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/PerformanceAndScalability/AttributeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/PerformanceAndScalability/AttributeStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/PerformanceAndScalability/ServerStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/PerformanceAndScalability/ServerStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/PerformanceAndScalability/StripedMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/PerformanceAndScalability/StripedMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/TaskExecution/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/TaskExecution/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/SingleThreadWebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/TaskExecution/SingleThreadWebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/TaskExcutionWebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/TaskExecution/TaskExcutionWebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/TaskExecution/ThradPerTaskExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/TaskExecution/ThradPerTaskExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/TheJavaMemoryModel/PossibleReordering.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/TheJavaMemoryModel/PossibleReordering.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/ArrangementUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/ArrangementUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/BoundedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/BoundedHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/CountingFactorizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/CountingFactorizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/FileCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/FileCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/LazyInitRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/LazyInitRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/OneValueCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/OneValueCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/PermutationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/StatelessFactorizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/StatelessFactorizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/ThreeStooges.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/ThreeStooges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/VolatileCachedFactorizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency/src/concurrency/ThreadSafety/VolatileCachedFactorizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NIO/DeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NIO/LearnNIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/nio/src/nio/LearnNIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NIO/MonitoringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NIO/MultiPortEcho.java" beforeDir="false" afterPath="$PROJECT_DIR$/nio/src/nio/MultiPortEcho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NIO/OOMObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NIO/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/adopter/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/adopter/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/adopter/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/adopter/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/adopter/adopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/adopter/adopter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/adopter/b/Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/adopter/b/Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/adopter/b/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/adopter/b/Encryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/adopter/b/EncryptionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/adopter/b/EncryptionAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/adopter/b/ThirdPartyEncryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/adopter/b/ThirdPartyEncryption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/builder/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/builder/BuilderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/builder/BuilderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/builder/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/builder/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/builder/ComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/builder/ComputerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/composite/BranchCampu.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/composite/BranchCampu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/composite/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/composite/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/composite/Composite.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/composite/Composite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/composite/Headquarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/composite/Headquarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/composite/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/composite/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/composite/TeachingPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/composite/TeachingPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/coffee/Chocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/coffee/Chocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/coffee/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/coffee/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/coffee/Decaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/coffee/Decaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/coffee/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/coffee/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/coffee/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/coffee/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/coffee/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/coffee/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/encrypt/EncryptComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/encrypt/EncryptComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/encrypt/EncryptDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/encrypt/EncryptDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/encrypt/OriginalEncrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/encrypt/OriginalEncrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/decorator/encrypt/OtherAEncrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/decorator/encrypt/OtherAEncrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/facade/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/facade/CPU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/facade/ComputerFaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/facade/ComputerFaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/facade/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/facade/Disk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/facade/Host.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/facade/Host.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/facade/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/facade/Memory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory/AirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/AirConditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory/HaierAirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/HaierAirConditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory/HaierFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/HaierFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory/HaierTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/HaierTV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory/TCLAirConditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/TCLAirConditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory/TCLFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/TCLFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory/TCLTV.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/TCLTV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory1/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/factory1/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory1/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/factory1/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory1/MysqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/factory1/MysqlConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory1/MysqlFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/factory1/MysqlFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory1/MysqlStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/factory1/MysqlStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory1/OracleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/factory1/OracleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory1/OracleStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/factory1/OracleStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/factory1/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/factory/factory1/Statement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/singleton/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/singleton/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/singleton/Emperor.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/singleton/Emperor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/singleton/JInternalFrame1.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/singleton/JInternalFrame1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/singleton/JInternalFrameDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/singleton/JInternalFrameDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/singleton/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/singleton/Pool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designpattern/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designpattern/src/designpattern/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/ConstClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/DynamicDispatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/FieldResolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/NotInitialization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/Overload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/StaticDispatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/StaticResolution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/SubClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/SuperClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jvm/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readandshow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/writesomebytes.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyAppThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyAppThread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyThreadFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyThreadFactory$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyThreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ApplyingThreadPools/MyThreadFactory.class" afterDir="false" />
@@ -128,6 +452,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/StatelessFactorizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/StatelessFactorizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/ThreeStooges.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/ThreeStooges.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/VolatileCachedFactorizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaConcurrency/ThreadSafety/VolatileCachedFactorizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ThinkingInJava.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/NIO/LearnNIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NIO/LearnNIO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/NIO/MultiPortEcho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NIO/MultiPortEcho.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/designpattern/adopter/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/adopter/Cat.class" afterDir="false" />
@@ -184,9 +509,18 @@
       <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/Pool$Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/Pool$Connection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/Pool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/Pool.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/designpattern/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/designpattern/singleton/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/readandshow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/writesomebytes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/algorithm/target/" />
+    <ignored path="$PROJECT_DIR$/concurrency/target/" />
+    <ignored path="$PROJECT_DIR$/designpattern/target/" />
+    <ignored path="$PROJECT_DIR$/nio/target/" />
+    <ignored path="$PROJECT_DIR$/jvm/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,239 +563,98 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.25528812">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/OtherAEncrypt.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="722">
-                  <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#156#157#0" expanded="true" />
-                    <element signature="e#195#196#0" expanded="true" />
-                    <element signature="e#243#244#0" expanded="true" />
-                    <element signature="e#299#300#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/NIO/MonitoringTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/facade/CPU.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" column="36" selection-end-line="16" />
-                  <folding>
-                    <element signature="e#135#136#0" expanded="true" />
-                    <element signature="e#169#170#0" expanded="true" />
-                    <element signature="e#194#195#0" expanded="true" />
-                    <element signature="e#240#241#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Memory.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
-                  <folding>
-                    <element signature="e#208#209#0" expanded="true" />
-                    <element signature="e#259#260#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/NIO/LearnNIO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/NIO/Tree.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1178">
-                  <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Disk.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="13" selection-end-line="14" />
-                  <folding>
-                    <element signature="e#198#199#0" expanded="true" />
-                    <element signature="e#247#248#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Host.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="13" column="36" selection-end-line="19" />
-                  <folding>
-                    <element signature="e#225#226#0" expanded="true" />
-                    <element signature="e#271#272#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/designpattern/facade/ComputerFaca.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="16" column="18" selection-end-line="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/jvm/NotInitialization.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/jvm/FieldResolution.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#442#443#0" expanded="true" />
-                    <element signature="e#483#484#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/jvm/Test.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/jvm/StaticResolution.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/jvm/StaticDispatch.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#219#220#0" expanded="true" />
-                    <element signature="e#267#268#0" expanded="true" />
-                    <element signature="e#302#303#0" expanded="true" />
-                    <element signature="e#356#357#0" expanded="true" />
-                    <element signature="e#393#394#0" expanded="true" />
-                    <element signature="e#442#443#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/jvm/Overload.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-                  <folding>
-                    <element signature="e#81#82#0" expanded="true" />
-                    <element signature="e#131#132#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/jvm/DynamicDispatch.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#205#206#0" expanded="true" />
-                    <element signature="e#249#250#0" expanded="true" />
-                    <element signature="e#378#379#0" expanded="true" />
-                    <element signature="e#422#423#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/jvm/ConstClass.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/Executors.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="874">
-                  <caret line="87" column="33" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/NIO/MultiPortEcho.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="399">
-                  <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/offer3/MyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jvm/src/jvm/VolatileTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jvm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/designpattern/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/offer4/No37.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/offer4/No35.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/offer3/No22.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -520,10 +713,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designpattern/singleton/JInternalFrame1.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/singleton/Emperor.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/singleton/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/designpattern/adopter/Cat.java" />
         <option value="$PROJECT_DIR$/src/designpattern/adopter/Gog.java" />
         <option value="$PROJECT_DIR$/src/designpattern/adopter/Dog.java" />
         <option value="$PROJECT_DIR$/src/designpattern/adopter/adopter.java" />
@@ -571,6 +760,10 @@
         <option value="$PROJECT_DIR$/src/jvm/StaticDispatch.java" />
         <option value="$PROJECT_DIR$/src/jvm/Overload.java" />
         <option value="$PROJECT_DIR$/src/jvm/DynamicDispatch.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jvm/pom.xml" />
+        <option value="$PROJECT_DIR$/concurrency/pom.xml" />
+        <option value="$PROJECT_DIR$/designpattern/pom.xml" />
       </list>
     </option>
   </component>
@@ -592,7 +785,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1400" />
@@ -604,7 +797,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -615,35 +807,42 @@
             <path>
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaConcurrency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -654,13 +853,13 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dd/project/ThinkingInJava/src/c07/Hide.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566469598325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566623317625" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20542635" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -694,7 +893,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DynamicDispatch">
+  <component name="RunManager" selected="Application.VolatileTest">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="JavaBook" />
       <working_directory value="$PROJECT_DIR$" />
@@ -713,6 +912,19 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
+    </configuration>
+    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.DFS" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DynamicDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jvm.DynamicDispatch" />
@@ -740,12 +952,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.StaticDispatch" />
-      <module name="ThinkingInJava" />
+    <configuration name="ReseveLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.ReseveLinkedList" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -753,23 +965,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticResolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.StaticResolution" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jvm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.Test" />
-      <module name="ThinkingInJava" />
-      <option name="VM_PARAMETERS" value="-verbose:gc" />
+    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvm.VolatileTest" />
+      <module name="jvm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="jvm.*" />
@@ -962,20 +1160,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Tomcat Server.xiantang" />
-      <item itemvalue="Application.StaticResolution" />
-      <item itemvalue="Application.StaticDispatch" />
       <item itemvalue="Application.Overload" />
       <item itemvalue="Application.DynamicDispatch" />
+      <item itemvalue="Tomcat Server.xiantang" />
+      <item itemvalue="Application.DFS" />
+      <item itemvalue="Application.ReseveLinkedList" />
+      <item itemvalue="Application.VolatileTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VolatileTest" />
+        <item itemvalue="Application.ReseveLinkedList" />
+        <item itemvalue="Application.DFS" />
         <item itemvalue="Application.DynamicDispatch" />
         <item itemvalue="Application.Overload" />
-        <item itemvalue="Application.StaticDispatch" />
-        <item itemvalue="Application.StaticResolution" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1062,6 +1260,7 @@
       <workItem from="1566307547163" duration="6308000" />
       <workItem from="1566360344507" duration="1674000" />
       <workItem from="1566397386925" duration="7020000" />
+      <workItem from="1566622537625" duration="559000" />
     </task>
     <servers />
   </component>
@@ -1083,7 +1282,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407228000" />
+    <option name="totallyTimeSpent" value="407787000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1096,8 +1295,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49701494" visible="true" weight="0.19722815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49701494" visible="true" weight="0.14285715" />
       <window_info id="Structure" order="1" sideWeight="0.50298506" side_tool="true" weight="0.36492538" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1107,7 +1307,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4935484" weight="0.32682925" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6556503" visible="true" weight="0.40238613" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6551173" visible="true" weight="0.40238613" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47441363" weight="0.40455532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1115,8 +1315,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49944875" weight="0.32827735" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.34434968" side_tool="true" visible="true" weight="0.40238613" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.44136462" weight="0.32098764" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.34488273" side_tool="true" visible="true" weight="0.40238613" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4402985" weight="0.31995663" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32896462" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.49946752" weight="0.3298611" />
@@ -1263,18 +1463,6 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/OtherAEncrypt.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/NIO/MonitoringTest.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/jvm/NotInitialization.java</url>
           <line>5</line>
           <properties />
@@ -1294,154 +1482,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/EncryptionAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/adopter/b/ThirdPartyEncryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/BranchCampu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator.java" />
-    <entry file="file://$PROJECT_DIR$/src/designpattern/composite/TeachingPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaConcurrency/ThreadSafety/VolatileCachedFactorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/coffee/Coffee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/coffee/Decaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/coffee/Drink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/coffee/Milk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/designpattern.decorator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>designpattern.decorator</OriginalElement>
-          <nodes>
-            <node x="" y="">designpattern.decorator.encrypt</node>
-            <node x="" y="">designpattern.decorator.coffee</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="97.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>public</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/coffee/Chocolate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1604,99 +1644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/OtherAEncrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/CPU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="36" selection-end-line="16" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Memory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NIO/LearnNIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NIO/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Disk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-end-line="14" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Host.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="36" selection-end-line="19" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/ComputerFaca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NIO/MonitoringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designpattern/builder/Computer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1755,24 +1702,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/Executors.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="33" />
+        <state relative-caret-position="175">
+          <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NIO/MultiPortEcho.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/decorator/encrypt/OtherAEncrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="403">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jvm/ConstClass.java">
+    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/CPU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="190">
+          <caret line="10" column="36" selection-end-line="16" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Memory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/LearnNIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Disk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-end-line="14" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/Host.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="36" selection-end-line="19" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designpattern/facade/ComputerFaca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/MonitoringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1785,7 +1811,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jvm/FieldResolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="342">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="e#442#443#0" expanded="true" />
@@ -1823,13 +1849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jvm/Overload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1838,6 +1857,20 @@
             <element signature="e#81#82#0" expanded="true" />
             <element signature="e#131#132#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jvm/ConstClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NIO/MultiPortEcho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1854,6 +1887,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/TwoValuetoK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/ReseveLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/offer3/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/offer4/No37.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/offer3/No22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/src/algorithm/offer4/No35.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/src/jvm/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/designpattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1865,7 +2003,6 @@
             <option name="proportions">
               <list>
                 <option value="0.20542635" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1873,7 +2010,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1896,7 +2033,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1908,11 +2045,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ThinkingInJava</last-edited>
+          <last-edited>ThinkInJava</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.20542635" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

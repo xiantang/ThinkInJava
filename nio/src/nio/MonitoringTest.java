@@ -1,16 +1,14 @@
-package NIO;
+package nio;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.concurrent.TimeUnit;
 
 public class MonitoringTest {
-    public static void createBusyThread(){
-        Thread thread=new Thread(new Runnable(){
-            @Override
-            public void run(){
-                while(true)//第41行
-;
+    private static void createBusyThread(){
+        Thread thread=new Thread(() -> {
+            while(true)//第41行
+            {
             }
         },"testBusyThread");
         thread.start();
@@ -18,7 +16,7 @@ public class MonitoringTest {
     /**
      *线程锁等待演示
      */
-    public static void createLockThread(final Object lock){
+    private static void createLockThread(final Object lock){
         Thread thread=new Thread(new Runnable(){
             @Override
             public void run(){
@@ -36,19 +34,13 @@ public class MonitoringTest {
         thread.start();
     }
     public static void main(String[]args)throws Exception{
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-//        br.readLine();
-        // 创建一个等待线程
+        new BufferedReader(new InputStreamReader(System.in));
+
         createBusyThread();
         Object obj=new Object();
         createLockThread(obj);
         TimeUnit.SECONDS.sleep(2);
         createLockThread(obj);
-//        synchronized (obj) {
-//            obj.notify();
-//        }
-//        br.readLine();
-
 
     }
 

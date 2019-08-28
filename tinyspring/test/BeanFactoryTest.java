@@ -1,7 +1,5 @@
 import hello.HelloWorldService;
 import org.junit.Test;
-import tinyspring.BeanDefinition;
-import tinyspring.ResourceLoader;
 import factory.AbstractBeanFactory;
 import factory.AutowireCapableBeanFactory;
 import xml.BeanDefinition;

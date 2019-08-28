@@ -1,43 +1,18 @@
-package NIO;
+package algorithm;
 
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
 
 public class Tree {
     public static void main(String[] args) {
 
-//        int[] l = {2, 7, 5, 2, 6, 0, 9, 0, 0, 5, 11,0,0, 4, 0};
-//        int length = l.length;
-//        int len = 1;
-//        int deep = 1;
-//        int pre = 1;
-//        while (len != length) {
-//            int tmp = pre * 2;
-//            len += tmp;
-//            deep += 1;
-//            pre = tmp;
-//        }
-//        int length_ = length - 1;
-//        int cur;
-//        while (deep >= 0) {
-//            int index = (int) Math.pow(2, (double) deep-1);
-//            cur = length_ - index;
-//            for (int i = cur+1; i <= length_; i++) {
-//                System.out.print(l[i]);
-//            }
-//            System.out.println("");
-//            length_ = cur;
-//            deep--;
-//        }
-        //HG[3|B[2|CA]]F
 
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
-        Stack<Character> characters = new Stack<Character>();
+        Stack<Character> characters = new Stack<>();
         for (int i = 0; i < input.length(); i++) {
-            Character a = input.charAt(i);
-            if (Character.isAlphabetic(a) || a.charValue() == '[' || a.charValue() == '|' || Character.isDigit(a)) {
+            char a = input.charAt(i);
+            if (Character.isAlphabetic(a) || a == '[' || a == '|' || Character.isDigit(a)) {
                 characters.push(a);
             } else {
                 StringBuilder strs = new StringBuilder();
@@ -50,12 +25,12 @@ public class Tree {
                     } else if (Character.isDigit(c)) {
                         ints.append(c);
                     }
-                } while (c.charValue() != '[');
-                String res = "";
+                } while (c != '[');
+                StringBuilder res = new StringBuilder();
                 int num = Integer.parseInt(ints.reverse().toString());
                 strs = strs.reverse();
                 for (int j = 0; j < num; j++) {
-                    res += strs;
+                    res.append(strs);
                 }
                 for (int j = 0; j < res.length(); j++) {
                     Character b = res.charAt(j);

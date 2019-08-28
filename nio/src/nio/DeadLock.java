@@ -1,4 +1,4 @@
-package NIO;
+package nio;
 
 public class DeadLock {
     static class SynAddRunalbe implements Runnable{

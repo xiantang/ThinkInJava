@@ -7,7 +7,7 @@ package offer.offer3;
 public class No32 {
     /**
      * 输入一个整数 n，求从 1 到 n 这 n 个整数的十进制表示中 1 出现的次数。
-     * 例如输入 12，从 1 到 12 这些整数中包含 1 的数字有 1,10,11 和 12,1 一共出现 5 次。
+     * 例如输入 12，c1 1 到 12 这些整数中包含 1 的数字有 1,10,11 和 12,1 一共出现 5 次。
      */
     public static void main(String[] args) {
         System.out.println(countOne(115));

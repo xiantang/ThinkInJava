@@ -14,7 +14,7 @@ public class SafeVectorHelpers {
         synchronized (list) {
             int lastIndex = list.size() - 1;
             list.remove(lastIndex);
-//            ConcurrentHashMap
+//            ConcurrentHashMapTest
         }
     }
 }

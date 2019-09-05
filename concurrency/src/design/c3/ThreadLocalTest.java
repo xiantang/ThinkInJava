@@ -47,10 +47,29 @@ public class ThreadLocalTest {
      *         return setInitialValue();
      *     }
      *
+     * 线程会在退出前做一些资源清理
+     *   private void exit() {
+     *         if (group != null) {
+     *             group.threadTerminated(this);
+     *             group = null;
+     *         }
+     *
+     *         target =null;
+     *
+     *         threadLocals =null;
+     *         inheritableThreadLocals =null;
+     *         inheritedAccessControlContext =null;
+     *         blocker =null;
+     *         uncaughtExceptionHandler =null;
+     *      }
+     * 如果我们使用的是线程池 就意味着线程未必会退出
+     * 设置了对象到ThreadLocal 中，但是不清理他
+     * 使用了几次之后，对象不再有用，但是他就无法被回收了
+     *
      */
 
     static ThreadLocal<SimpleDateFormat> t1 = new ThreadLocal<>();
-//    private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    static ThreadLocal<Integer> num = new ThreadLocal<>();
 
     public static class ParseDate implements Runnable {
         int i = 0;
@@ -62,7 +81,8 @@ public class ThreadLocalTest {
         @Override
         public void run() {
             try {
-                if (t1.get() == null) {
+                if (t1.get() == null || num.get() == null) {
+                    num.set(1);
                     t1.set(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"));
                 }
                 Date t = t1.get().parse("2015-03-29 19:28:" + i % 60);

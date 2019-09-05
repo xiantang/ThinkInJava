@@ -8,6 +8,8 @@ public class No3 {
  * 和一个整数，判断数组中是否函数该整数。
  */
     public static boolean search(int[][] arr, int value) {
+
+        // TODO need to review
         // 从右上脚开始搜索
         // 先找9 如果比9大就在
         //{2, 4, 9, 12},

@@ -18,7 +18,7 @@ public class Singleton {
              * Singleton：getInstance@24
              */
             // 多执行了一个lock addl$0x0，（%esp) 操作
-            // 其中的 add 的作用是讲将Cache写入内存
+            // 其中的 addr 的作用是讲将Cache写入内存
             // 并且无效化别的CPU 的 Cache
             instance = new Singleton();
         }

@@ -1,9 +1,12 @@
 package offer.offer1;
 
+import java.util.Arrays;
+
 public class No6 {
     public static TreeNode build(String preOrder, String midOrder) {
 //        String preOrder = "12473568";
 //        String midOrder = "47215386";
+
         if (preOrder.length() == 0) {
             return null;
         }

@@ -11,7 +11,7 @@ public class ListHelper<E> {
 //    public boolean putIfAbsent(E x) {
 //        synchronized (list) {
 //            boolean absent = !list.contains(x);
-//            if (absent) list.add(x);
+//            if (absent) list.addr(x);
 //            return absent;
 //        }
 //    }

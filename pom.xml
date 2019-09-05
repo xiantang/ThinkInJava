@@ -35,6 +35,7 @@
         <module>jvm</module>
         <module>nio</module>
         <module>tinyspring</module>
+        <module>learnrpc</module>
     </modules>
     <dependencies>
         <!-- servlet依赖的jar包start -->

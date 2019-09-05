@@ -31,7 +31,7 @@ public class CopyOnWriteTest {
          *
          * 写入操作
          *
-         * public boolean add(E e) {
+         * public boolean addr(E e) {
          *         // 写入操作使用锁
          *         final ReentrantLock lock = this.lock;
          *         lock.lock();

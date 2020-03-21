@@ -73,7 +73,6 @@ public class TrieST<Value> {
     private void collect(Node x, String pre, Queue<String> q) {
         if (x == null) return;
         if (x.val != null) {
-//            System.out.println(pre);
             q.enqueue(pre);
         }
         for (int r = 0; r < R; r++) {
@@ -147,7 +146,6 @@ public class TrieST<Value> {
 //        System.out.println(trieST.longstPrefixOf("abn"));
         trieST.delete("abnd");
         System.out.println(trieST.get("ab"));
-        ;
     }
 
 

@@ -40,7 +40,7 @@ public class ThreadPoolTest {
          *                 return;
          *             c = ctl.get();
          *         }
-         *         if (isRunning(c) && workQueue.offer(command)) {
+         *         if (isRunning(c) && workQueue.info.xiantang.algorithm.offer(command)) {
          *             int recheck = ctl.get();
          *             if (! isRunning(recheck) && remove(command))
          *                 reject(command);

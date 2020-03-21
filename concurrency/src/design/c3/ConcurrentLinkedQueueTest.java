@@ -27,7 +27,7 @@ public class ConcurrentLinkedQueueTest {
      * 如果大量的入队操作，会造成大量的操作损耗
      * 这个设计就是为了减少CAS 更新的操作，大大的提升
      * 了入队的效率。
-     * public boolean offer(E e) {
+     * public boolean info.xiantang.algorithm.offer(E e) {
      *         checkNotNull(e);
      *         final Node<E> newNode = new Node<E>(e);
      *
@@ -63,8 +63,8 @@ public class ConcurrentLinkedQueueTest {
 
 
 //        ConcurrentLinkedQueue linkedQueue = new ConcurrentLinkedQueue();
-//        linkedQueue.offer(1);
-//        linkedQueue.offer(2);
+//        linkedQueue.info.xiantang.algorithm.offer(1);
+//        linkedQueue.info.xiantang.algorithm.offer(2);
 
 
         ConcurrentLinkedQueue<String> linkedQueue = new ConcurrentLinkedQueue<>();

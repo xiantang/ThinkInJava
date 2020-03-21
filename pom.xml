@@ -35,7 +35,7 @@
         <module>jvm</module>
         <module>nio</module>
         <module>tinyspring</module>
-        <module>learnrpc</module>
+        <module>redis</module>
         <module>collection</module>
     </modules>
     <dependencies>

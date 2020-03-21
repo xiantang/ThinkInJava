@@ -1,10 +1,10 @@
-# ThinkInJava
+# JavaCodeBase
 
 #### 算法 
 主要使剑值offer上的习题，使用Java实现
 #### concurrency
 在并发实战上学习的一些Java 代码
-#### design pattern 
+#### info.xiantang.concurrency.design pattern 
 学校教学的一些设计模式作业
 * 适配器模式
 * 桥接模式

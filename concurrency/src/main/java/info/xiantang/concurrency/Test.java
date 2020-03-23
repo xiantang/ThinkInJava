@@ -1,8 +1,5 @@
 package info.xiantang.concurrency;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @Author: xiantang
  * @Date: 2019/7/11 22:00

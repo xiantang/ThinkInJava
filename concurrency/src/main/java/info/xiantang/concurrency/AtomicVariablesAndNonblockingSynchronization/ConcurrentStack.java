@@ -1,7 +1,6 @@
 package info.xiantang.concurrency.AtomicVariablesAndNonblockingSynchronization;
 
 
-
 import java.util.concurrent.atomic.AtomicReference;
 
 /**

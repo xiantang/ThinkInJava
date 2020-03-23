@@ -1,6 +1,9 @@
 package info.xiantang.concurrency.ComposingObjects;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
 public class PersonSet {
     private final Set<Person> mySet = new HashSet<Person>();

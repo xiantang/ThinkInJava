@@ -1,6 +1,6 @@
 package info.xiantang.algorithm.collection.find;
 
-import info.xiantang.algorithm.collection.base.LinkList;
+import info.xiantang.algorithm.collection.base.LinkedList;
 
 import java.lang.reflect.Array;
 
@@ -40,8 +40,8 @@ public class Dict<K, V> {
         DictHt dictHt1 = dictHts[1];
         treHashIndex += 1;
         DictHt.Entry<K, V> entry = dictHt0.entries[treHashIndex];
-        LinkList<DictHt.Node<K, V>> linkList = entry.linkList;
-        for (DictHt.Node<K, V> next : (Iterable<DictHt.Node<K, V>>) linkList) {
+        LinkedList<DictHt.Node<K, V>> linkedList = entry.linkedList;
+        for (DictHt.Node<K, V> next : (Iterable<DictHt.Node<K, V>>) linkedList) {
             dictHt1.put(next.key, next.value);
         }
         dictHt0.entries[treHashIndex] = new DictHt.Entry();
@@ -129,8 +129,8 @@ public class Dict<K, V> {
         }
 
         private Node<K, V> getNode(K key, Entry entry) {
-            LinkList<Node<K, V>> linkList = entry.getLinkList();
-            for (Node<K, V> next : (Iterable<Node<K, V>>) linkList) {
+            LinkedList<Node<K, V>> linkedList = entry.getLinkedList();
+            for (Node<K, V> next : (Iterable<Node<K, V>>) linkedList) {
                 if (next.key.equals(key)) {
                     return next;
                 }
@@ -162,14 +162,14 @@ public class Dict<K, V> {
         }
 
         private static class Entry<K, V> {
-            private LinkList<Node<K, V>> linkList = new LinkList<>();
+            private LinkedList<Node<K, V>> linkedList = new LinkedList<>();
 
             public void insert(Node<K, V> node) {
-                linkList.add(node);
+                linkedList.linsert(node);
             }
 
-            LinkList<Node<K, V>> getLinkList() {
-                return linkList;
+            LinkedList<Node<K, V>> getLinkedList() {
+                return linkedList;
             }
         }
     }

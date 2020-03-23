@@ -1,7 +1,5 @@
 package info.xiantang.concurrency.ThreadPool;
 
-import java.util.concurrent.ThreadPoolExecutor;
-
 /**
  * corePoolSize 线程池的基本大小
  * maximumPoolSize 线程池最大线程大小

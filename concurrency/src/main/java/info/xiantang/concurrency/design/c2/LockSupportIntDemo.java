@@ -30,7 +30,7 @@ public class LockSupportIntDemo {
                 // 堆栈跟踪:
                 // sun.misc.Unsafe.park(Native Method)
                 // java.util.concurrent.locks.LockSupport.park(LockSupport.java:304)
-                // info.xiantang.concurrency.design.c2.LockSupportIntDemo$ChangeObjectThread.run(LockSupportIntDemo.java:26)
+                // main.java.concurrency.design.c2.LockSupportIntDemo$ChangeObjectThread.run(LockSupportIntDemo.java:26)
                 //    - 已锁定 java.lang.Object@1af5
                 LockSupport.park(this);
             }

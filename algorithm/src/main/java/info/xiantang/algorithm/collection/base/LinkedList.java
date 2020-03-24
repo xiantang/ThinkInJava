@@ -67,21 +67,6 @@ public class LinkedList<Item> implements Iterable{
     }
 
 
-    public void delLast(){
-        Node prelast = first ;
-        Node last = first.next;
-        if (last == null){
-            first = null;
-        }else {
-            while (last.next!=null){
-                prelast = prelast.next;
-                last = last.next;
-            }
-            prelast.next = null;
-
-        }
-
-    }
     @Override
     public Iterator<Item> iterator() {
         return new ListIterator();

@@ -12,7 +12,6 @@
     <groupId>info.xiantang.algorithm</groupId>
     <artifactId>algorithm</artifactId>
     <build>
-        <sourceDirectory>src</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

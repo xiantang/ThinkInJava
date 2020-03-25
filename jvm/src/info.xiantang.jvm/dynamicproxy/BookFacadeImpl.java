@@ -1,4 +1,4 @@
-package jvm.dynamicproxy;
+package info.xiantang.jvm.dynamicproxy;
 
 public class BookFacadeImpl implements BookFacade {
     @Override

@@ -1,4 +1,4 @@
-package jvm.dynamicsupport;
+package info.xiantang.jvm.dynamicsupport;
 
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
@@ -13,7 +13,7 @@ public class GrandFather {
     void thinking(){
         System.out.println("i am grandfather");
     }
-    static class Father extends GrandFather{
+    static class Father extends GrandFather {
         void thinking() {
             System.out.println("i am father");
         }

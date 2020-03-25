@@ -1,4 +1,4 @@
-package jvm.gc;
+package info.xiantang.jvm.gc;
 
 public class MinorGC {
 

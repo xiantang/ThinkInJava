@@ -1,4 +1,4 @@
-package jvm.dispatch;
+package info.xiantang.jvm.dispatch;
 
 /**
  * @Author: xiantang

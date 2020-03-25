@@ -1,4 +1,4 @@
-package jvm;
+package info.xiantang.jvm.jvm;
 
 public class Test {
     public static void main(String[] args) {

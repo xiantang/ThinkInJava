@@ -1,4 +1,4 @@
-package jvm.gc;
+package info.xiantang.jvm.gc;
 
 import java.nio.ByteBuffer;
 

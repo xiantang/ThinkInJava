@@ -1,4 +1,4 @@
-package jvm.generic;
+package info.xiantang.jvm.generic;
 
 import java.util.Arrays;
 import java.util.Iterator;

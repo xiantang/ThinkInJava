@@ -1,4 +1,4 @@
-package jvm.gc;
+package info.xiantang.jvm.gc;
 
 public class FinalizeEscapeGC {
     private static FinalizeEscapeGC SAVE_HOOK = null;

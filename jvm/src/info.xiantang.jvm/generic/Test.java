@@ -1,4 +1,4 @@
-package jvm.generic;
+package info.xiantang.jvm.generic;
 
 import java.util.HashMap;
 import java.util.Map;

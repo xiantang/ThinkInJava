@@ -1,4 +1,4 @@
-package jvm.classloading;
+package info.xiantang.jvm.classloading;
 
 public class SuperClass{
     static{
@@ -7,11 +7,13 @@ public class SuperClass{
 
     public static int value = 123;
 }
- class SubClass extends SuperClass{
-    static{
-        System.out.println("SubClass init！");
-    }
+
+class SubClass extends SuperClass {
+   static{
+       System.out.println("SubClass init！");
+   }
 }
+
 /**
  *非主动使用类字段演示
  **/

@@ -38,6 +38,8 @@
         <module>redis</module>
         <module>collection</module>
         <module>messagequeue</module>
+        <module>consumer</module>
+        <module>junitx</module>
     </modules>
     <dependencies>
         <!-- servlet依赖的jar包start -->

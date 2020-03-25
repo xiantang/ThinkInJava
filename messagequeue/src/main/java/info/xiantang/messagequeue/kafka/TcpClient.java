@@ -10,6 +10,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 public class TcpClient {
 
@@ -27,7 +28,7 @@ public class TcpClient {
     }
 
     public void connect() {
-        TcpPackage tcpPackage = new TcpPackage(seq, 0, 1, 0);
+        TcpPackage tcpPackage = new TcpPackage(seq, 0, 1, 0,"1".getBytes());
         String jsonString = JSON.toJSONString(tcpPackage);
         ProducerRecord<String, String> records = new ProducerRecord<>("tcpTo", jsonString);
         producer.send(records, (record, e) ->
@@ -46,6 +47,12 @@ public class TcpClient {
         new Thread(() -> {
             while (true) {
                 ConsumerRecords<String, String> records = consumer.poll(100);
+                try {
+                    TimeUnit.MILLISECONDS.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
                 for (ConsumerRecord<String, String> element : records) {
                     handler(element);
                 }
@@ -59,11 +66,16 @@ public class TcpClient {
         int flagACK = tcp.getFlagACK();
         int flagSYN = tcp.getFlagSYN();
         if (flagACK == 1 && flagSYN == 1) {
-            System.out.println(name + "received topic:" + record.topic()
-                    + " partition:" + record.partition()
-                    + " offset:" + record.offset()
-                    + " value:" + record.value()
-            );
+            seq += 1;
+            TcpPackage returnPackage = new TcpPackage(this.seq, 1, 0, tcp.getSeq() + 1, "1".getBytes());
+            String jsonString = JSON.toJSONString(returnPackage);
+            ProducerRecord<String, String> records = new ProducerRecord<>("tcpFrom", jsonString);
+            producer.send(records, (send, e) ->
+                    System.out.println(name + "send topic:" + send.topic()
+                            + " partition:" + send.partition()
+                            + " offset:" + send.offset()
+                            + " value:" + jsonString
+                    ));
         }
 
     }

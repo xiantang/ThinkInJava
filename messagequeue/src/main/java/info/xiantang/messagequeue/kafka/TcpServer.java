@@ -9,6 +9,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 public class TcpServer {
     private final Producer<String, String> producer;
@@ -31,6 +32,11 @@ public class TcpServer {
         consumer.subscribe(topics);
         new Thread(() -> {
             while (true) {
+                try {
+                    TimeUnit.MILLISECONDS.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 ConsumerRecords<String, String> records = consumer.poll(100);
                 for (ConsumerRecord<String, String> record : records) {
                     handler(record);
@@ -41,11 +47,6 @@ public class TcpServer {
     }
 
     private void handler(ConsumerRecord<String, String> record) {
-        System.out.println(name + "received topic:" + record.topic()
-                + " partition:" + record.partition()
-                + " offset:" + record.offset()
-                + " value:" + record.value()
-        );
         String value = record.value();
         TcpPackage tcpPackage = JSON.parseObject(value, TcpPackage.class);
         int syn = tcpPackage.getFlagSYN();
@@ -53,7 +54,7 @@ public class TcpServer {
 
         if (syn == 1) {
             reSeq += 1;
-            TcpPackage tcp = new TcpPackage(seq, 1, 1, reSeq);
+            TcpPackage tcp = new TcpPackage(seq, 1, 1, reSeq,"1".getBytes());
             String jsonString = JSON.toJSONString(tcp);
             ProducerRecord<String, String> records = new ProducerRecord<>("tcpFrom", jsonString);
             producer.send(records, (send, e) ->

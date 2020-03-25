@@ -7,7 +7,6 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -23,9 +22,7 @@ public class TcpClientTest {
         props.put("auto.commit.interval.ms", "1000");
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        Consumer<String, String> consumer = new KafkaConsumer<>(props);
-        ArrayList<String> topics = new ArrayList<>();
-        return consumer;
+        return new KafkaConsumer<>(props);
     }
 
     private Producer<String, String> initProducer() {
@@ -55,7 +52,7 @@ public class TcpClientTest {
 
     @Test
     public void testParse() {
-        TcpPackage expect = new TcpPackage(20, 0, 1,0);
+        TcpPackage expect = new TcpPackage(20, 0, 1,0,"1".getBytes());
         String jsonString = JSON.toJSONString(expect);
         TcpPackage actual = JSON.parseObject(jsonString, TcpPackage.class);
         assertEquals(expect, actual);

@@ -7,6 +7,7 @@ public class TcpPackage implements Serializable {
     private int flagACK;
     private int flagSYN;
     private int ack;
+    private byte[] data;
 
 
     public int getSeq() {
@@ -17,11 +18,21 @@ public class TcpPackage implements Serializable {
         this.ack = ack;
     }
 
-    public TcpPackage(int seq, int flagACK, int SYN, int ack) {
+    public void setData(byte[] data) {
+        this.data = data;
+    }
+
+    public byte[] getData() {
+        return data;
+    }
+
+    public TcpPackage(int seq, int flagACK, int flagSYN, int ack, byte[] data) {
+
         this.seq = seq;
         this.flagACK = flagACK;
-        this.flagSYN = SYN;
+        this.flagSYN = flagSYN;
         this.ack = ack;
+        this.data = data;
     }
 
     public void setSeq(int seq) {

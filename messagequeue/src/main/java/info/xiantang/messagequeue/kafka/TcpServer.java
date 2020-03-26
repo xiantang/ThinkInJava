@@ -11,59 +11,31 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-public class TcpServer {
-    private final Producer<String, String> producer;
+public class TcpServer extends DuplexNode {
     private int seq = new Random().nextInt(100);
-
-    private final Consumer<String, String> consumer;
     private static final String name = "TCP server ";
+    private static final String SENT_TOPIC = "tcpFrom";
+    private static final String RECEIVE_TOPIC = "tcpTo";
 
-
-    public TcpServer(Producer<String, String> producer, Consumer<String, String> consumer) {
-
-        this.producer = producer;
-        this.consumer = consumer;
-
-    }
-
-    public void start() {
-        ArrayList<String> topics = new ArrayList<>();
-        topics.add("tcpTo");
-        consumer.subscribe(topics);
-        new Thread(() -> {
-            while (true) {
-                try {
-                    TimeUnit.MILLISECONDS.sleep(100);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                ConsumerRecords<String, String> records = consumer.poll(100);
-                for (ConsumerRecord<String, String> record : records) {
-                    handler(record);
-                }
-            }
-        }).start();
+    TcpServer(Producer<String, String> producer, Consumer<String, String> consumer) {
+        super(SENT_TOPIC,RECEIVE_TOPIC,producer,consumer,name);
 
     }
 
-    private void handler(ConsumerRecord<String, String> record) {
+    void start() {
+        await();
+    }
+
+    @Override
+    public void handler(ConsumerRecord<String, String> record) {
         String value = record.value();
         TcpPackage tcpPackage = JSON.parseObject(value, TcpPackage.class);
         int syn = tcpPackage.getFlagSYN();
         int reSeq = tcpPackage.getSeq();
-
         if (syn == 1) {
             reSeq += 1;
             TcpPackage tcp = new TcpPackage(seq, 1, 1, reSeq,"1".getBytes());
-            String jsonString = JSON.toJSONString(tcp);
-            ProducerRecord<String, String> records = new ProducerRecord<>("tcpFrom", jsonString);
-            producer.send(records, (send, e) ->
-                    System.out.println(name + "send topic:" + send.topic()
-                            + " partition:" + send.partition()
-                            + " offset:" + send.offset()
-                            + " value:" + jsonString
-                    ));
+            send(tcp);
         }
-
     }
 }

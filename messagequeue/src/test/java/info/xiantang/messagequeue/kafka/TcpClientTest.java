@@ -1,6 +1,7 @@
 package info.xiantang.messagequeue.kafka;
 
 import com.alibaba.fastjson.JSON;
+import info.xiantang.junitx.PrintTest;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -9,10 +10,12 @@ import org.junit.Test;
 
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Pattern;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
-public class TcpClientTest {
+public class TcpClientTest extends PrintTest {
 
     private Consumer<String, String> initConsumer(String topic) {
         Properties props = new Properties();
@@ -43,12 +46,20 @@ public class TcpClientTest {
         TcpClient tcpClient = new TcpClient(initProducer(),initConsumer("tcpFrom"));
         TcpServer tcpServer = new TcpServer(initProducer(),initConsumer("tcpTo"));
         tcpServer.start();
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.MILLISECONDS.sleep(200);
         tcpClient.start();
         tcpClient.connect();
         TimeUnit.SECONDS.sleep(1);
+        String outContent = getOutContent();
+        String[] contents = outContent.split("\n");
+        assertTrue(Pattern.matches("TCP client send topic:tcpTo.*?", contents[0]));
+        assertTrue(Pattern.matches("TCP server send topic:tcpFrom.*?", contents[1]));
+        assertTrue(Pattern.matches("TCP client send topic:tcpTo.*?", contents[2]));
 
     }
+
+
+
 
     @Test
     public void testParse() {

@@ -11,15 +11,12 @@ public class LinkedBlockQueueTest {
     @Test
     public void testLinkedBlockQueuePutWillOutBound() throws InterruptedException {
         final LinkedBlockQueue<Integer> queue = new LinkedBlockQueue<>(3);
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    TimeUnit.MILLISECONDS.sleep(300);
-                    queue.take();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+        new Thread(() -> {
+            try {
+                TimeUnit.MILLISECONDS.sleep(300);
+                queue.take();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }).start();
         queue.put(3);
@@ -36,15 +33,12 @@ public class LinkedBlockQueueTest {
     public void testTakeEmptyWillBlock() throws InterruptedException {
         final LinkedBlockQueue<Integer> queue = new LinkedBlockQueue<>(3);
 
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    TimeUnit.MILLISECONDS.sleep(300);
-                    queue.put(1);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+        new Thread(() -> {
+            try {
+                TimeUnit.MILLISECONDS.sleep(300);
+                queue.put(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }).start();
         int actual = queue.take();

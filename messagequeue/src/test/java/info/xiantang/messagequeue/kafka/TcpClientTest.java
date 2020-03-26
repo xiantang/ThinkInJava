@@ -46,7 +46,7 @@ public class TcpClientTest {
         TimeUnit.SECONDS.sleep(1);
         tcpClient.start();
         tcpClient.connect();
-        TimeUnit.SECONDS.sleep(2);
+        TimeUnit.SECONDS.sleep(1);
 
     }
 

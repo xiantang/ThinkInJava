@@ -72,13 +72,13 @@ public class Stack<Item> implements Iterable<Item> {
     }
 
     public static void main(String[] args) {
-        Stack<Integer> s = new Stack<Integer>();
+        Stack<Integer> s = new Stack<>();
         int N = 50;
         while (N>0){
             s.push(N%2);
             N = N/2;
         }
-        Stack<Integer> t = new Stack<Integer>(s,s.N);
+        Stack<Integer> t = new Stack<>(s, s.N);
 
         for (int i:t
              ) {

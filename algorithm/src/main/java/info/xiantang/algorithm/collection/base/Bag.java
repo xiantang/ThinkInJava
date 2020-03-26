@@ -11,8 +11,9 @@ public class Bag<Item> implements Iterable<Item> {
 
     @Override
     public Iterator<Item> iterator() {
-        return null;
+        return new ListIterator();
     }
+
     private class ListIterator implements Iterator<Item>{
         private Node current = first;
         @Override
@@ -24,6 +25,11 @@ public class Bag<Item> implements Iterable<Item> {
             Item item = current.item;
             current = current.next;
             return item;
+        }
+
+        @Override
+        public void remove() {
+
         }
     }
 

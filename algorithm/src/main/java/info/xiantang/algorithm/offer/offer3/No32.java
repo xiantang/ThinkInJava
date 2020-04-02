@@ -16,7 +16,7 @@ public class No32 {
     private static long countOne(int n) {
         long count =0;
         long i=1;
-        long current=0,after=0,before=0;
+        long current,after,before;
         while((n/i)!=0){
             current=(n/i)%10;
             before=n/(i*10);

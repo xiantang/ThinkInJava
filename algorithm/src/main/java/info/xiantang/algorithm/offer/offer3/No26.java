@@ -34,7 +34,7 @@ public class No26 {
         if (node == null) {
             return null;
         }
-        ComplexListNode newNode = null;
+        ComplexListNode newNode;
         // 如果map中找不到这个对象
         // 就先new 对象出来 放到map中
         // 深度优先遍历这个对象的next 和 sibling

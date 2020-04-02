@@ -18,16 +18,16 @@ public class No6 {
             }
         }
 
-        root.setLchild(build(preOrder.substring(1, index + 1), midOrder.substring(0,index)));
-        root.setRchild(build(preOrder.substring(index + 1), midOrder.substring(index + 1)));
+        root.setlChild(build(preOrder.substring(1, index + 1), midOrder.substring(0,index)));
+        root.setrChild(build(preOrder.substring(index + 1), midOrder.substring(index + 1)));
         return root;
     }
 
     public static void postRootTraverse(TreeNode root) {
         if (root != null) {
-            postRootTraverse(root.getLchild());
+            postRootTraverse(root.getlChild());
             System.out.print(root.getData());
-            postRootTraverse(root.getRchild());
+            postRootTraverse(root.getrChild());
 
         }
     }

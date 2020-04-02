@@ -40,6 +40,7 @@
         <module>messagequeue</module>
         <module>consumer</module>
         <module>junitx</module>
+        <module>server</module>
     </modules>
     <dependencies>
         <!-- servlet依赖的jar包start -->

@@ -23,8 +23,8 @@ public class No31 {
     private static int maxSub(int[] arr) {
         int sum = 0;
         int max = 0;
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
+        for (int value : arr) {
+            sum += value;
             if (sum < 0) {
                 sum = 0;
             } else if (sum > max) {

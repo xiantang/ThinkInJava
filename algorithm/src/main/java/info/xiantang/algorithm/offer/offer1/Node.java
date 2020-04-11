@@ -2,34 +2,32 @@ package info.xiantang.algorithm.offer.offer1;
 
 import java.util.Objects;
 
-public class Node {
-    public String data;
-    public Node next;
+public class Node<T> {
+    public T data;
+    public Node<T> next;
 
 
 
-    public Node() {
-    }
 
-    public Node(String data) {
+    public Node(T data) {
         super();
         this.data = data;
     }
-    public Node(String data, Node next) {
+    public Node(T data, Node<T> next) {
         super();
         this.data = data;
         this.next = next;
     }
-    public String getData() {
+    public T getData() {
         return data;
     }
-    public void setData(String data) {
+    public void setData(T data) {
         this.data = data;
     }
     public Node getNext() {
         return next;
     }
-    public void setNext(Node next) {
+    public void setNext(Node<T> next) {
         this.next = next;
     }
 

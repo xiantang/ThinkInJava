@@ -41,6 +41,7 @@
         <module>disruptor-consumer</module>
         <module>junitx</module>
         <module>limiter</module>
+        <module>java8</module>
     </modules>
     <dependencies>
         <!-- servlet依赖的jar包start -->
